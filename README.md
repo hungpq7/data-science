@@ -1,5 +1,5 @@
 # Data Science
-[![NBViewer](https://img.shields.io/badge/Render-nbviewer-orange?logo=github)](https://nbviewer.jupyter.org/github/hungpq7/data-science/tree/main/)
+[![NBViewer](https://img.shields.io/badge/Render-nbviewer-orange?logo=github)](https://nbviewer.jupyter.org/github/hungpq7/data-science/tree/master/)
 [![MyBinder](https://img.shields.io/badge/Render-mybinder-indianred?logo=github)](https://mybinder.org/v2/gh/hungpq7/data-science/main)
 [![Datalore](https://img.shields.io/badge/Open-datalore-teal?logo=python)](https://datalore.jetbrains.com/HICh9tMzg84aKmizzLSzaz/UQKR2rXCbGCaktk3s2qXou/notebooks)
 [![GoogleColab](https://img.shields.io/badge/Open-google%20colab-goldenrod?logo=python)](https://drive.google.com/drive/folders/1Rm4c_0G4R7Cyopcenzx7-EnCt3bR4HL7)
