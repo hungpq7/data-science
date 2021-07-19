@@ -37,11 +37,6 @@
     "shortcuts": [
         // ENABLE
         {
-            "command": "editmenu:clear-current",
-            "keys": ["E"],
-            "selector": "[data-jp-undoer]"
-        },
-        {
             "command": "notebook:hide-cell-outputs",
             "keys": ["O"],
             "selector": ".jp-Notebook:focus"
