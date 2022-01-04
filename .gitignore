@@ -3,3 +3,5 @@
 .gitignore
 derby.log
 metastore_db
+spark-warehouse
+catboost_info
