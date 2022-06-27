@@ -5,3 +5,4 @@ derby.log
 metastore_db
 spark-warehouse
 catboost_info
+houses_experiment.log
