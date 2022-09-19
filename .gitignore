@@ -6,3 +6,4 @@ metastore_db
 spark-warehouse
 catboost_info
 houses_experiment.log
+structured_data_classifier
