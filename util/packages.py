@@ -16,7 +16,6 @@ import scipy import stats
 import numpy.random as rd
 import sympy as sym
 
-
 # visualization
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -33,6 +32,18 @@ from feature_engine.transformation import BoxCoxTransformer, YeoJohnsonTransform
 from xgboost import XGBClassifier, XGBRegressor
 from lightgbm import LGBMClassifier, LGBMRegressor
 from catboost import CatBoostClassifier, CatBoostRegressor
+
+# time series analysis
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.seasonal import seasonal_decompose
+import ruptures as rpt
+
+# time series forecast
+
+
+# text mining
+import nltk
+import spacy
 
 # config
 np.set_printoptions(precision=4, suppress=True)
