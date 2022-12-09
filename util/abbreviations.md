@@ -75,6 +75,7 @@ SOTA|**s**tate-**o**f-**t**he-**a**rt
 SQL|**s**tructured **q**uery **l**anguage
 SVD|**s**ingular **v**alue **d**ecomposition
 SVM|**s**upport **v**ector **m**achine
+TBATS|**t**rigonometric seasonality, **b**ox-cox transformation, **a**rma errors, **t**rend and **s**easonal components
 TF-IDF|**t**erm **f**requency **i**nverse **d**ocument **f**requency
 TPE|**T**ree-structured **P**arzen **E**stimators
 TSNE|**t**-**d**istributed **s**tochastic **n**eighbor **e**mbedding
