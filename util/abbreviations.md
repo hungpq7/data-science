@@ -15,6 +15,7 @@ ARIMA|**a**uto-**r**egressive **i**ntegrate **m**oving **a**verage
 AUC|**a**rea **u**nder the **c**urve
 BIC|**b**ayesian **i**nformation **c**riteria
 BERT|**b**idirectional **e**ncoder **r**epresentations from **t**ransformers
+BPTT|**b**ack**p**ropagation **t**hrough **t**ime
 CART|**c**lassification **a**nd **r**egression **t**ree
 CatBoost|**cat**egorical **boost**ing
 CDF|**c**umulative **d**istribution **f**unction
