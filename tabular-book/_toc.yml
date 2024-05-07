@@ -1,0 +1,113 @@
+format: jb-book
+root: util/intro
+chapters:
+
+# Python Programming
+- file: 01-python-programing/_intro
+  sections:
+  - file: 01-python-programing/python-basic-concepts
+  - file: 01-python-programing/python-data-types
+  - file: 01-python-programing/python-data-containers
+  - file: 01-python-programing/python-functions-objects
+  - file: 01-python-programing/python-algorithms
+    title: "(w) Python: Algorithms"
+  - file: 01-python-programing/python-external-sources
+  - file: 01-python-programing/selenium-web-scraping
+
+# Mathematics
+- file: 02-mathematics/_intro
+  sections:
+  - file: 02-mathematics/numpy-linear-algebra
+  - file: 02-mathematics/sympy-calculus
+  - file: 02-mathematics/numpy-probability
+  - file: 02-mathematics/numpy-statistics
+  - file: 02-mathematics/scipy-hypothesis-testing
+  - file: 02-mathematics/numpy-applied-mathematics
+    # title: "(w) NumPy: Applied Mathematics"
+  - file: 02-mathematics/networkx-network-analysis
+    title: "(w) NetworkX: Network Analysis"
+
+- file: 03-data-manipulation/_intro
+  sections:
+  - file: 03-data-manipulation/numpy-arrays
+  - file: 03-data-manipulation/pandas-data-exploratory
+  - file: 03-data-manipulation/pandas-data-cleaning
+  - file: 03-data-manipulation/pandas-data-transformation
+  - file: 03-data-manipulation/janitor-pandas-extensions
+
+# Big Data
+- file: 04-big-data/_intro
+  sections:
+  - file: 04-big-data/hiveql-data-manipulation
+  - file: 04-big-data/pyspark-data-exploratory
+  - file: 04-big-data/pyspark-data-cleaning
+  - file: 04-big-data/pyspark-data-transformation
+  - file: 04-big-data/dask-parallelized-pandas
+
+# Data Visualization
+- file: 05-data-visualization/_intro
+  sections:
+  - file: 05-data-visualization/matplotlib-graph-construction
+  - file: 05-data-visualization/seaborn-statistical-visualization
+  - file: 05-data-visualization/plotly-interactive-visualization
+
+# Machine Learning
+- file: 06-machine-learning/_intro
+  sections:
+  - file: 06-machine-learning/sklearn-machine-learning
+  - file: 06-machine-learning/sklearn-classification
+  - file: 06-machine-learning/sklearn-regression
+  - file: 06-machine-learning/sklearn-feature-engineering
+  - file: 06-machine-learning/lenskit-recommendation
+  - file: 06-machine-learning/pyspark-machine-learning
+
+# Tabular Learning
+- file: 07-tabular-learning/_intro
+  sections:
+  - file: 07-tabular-learning/sklearn-ensemble-learning
+  - file: 07-tabular-learning/xgboost-tree-boosting
+  - file: 07-tabular-learning/ray-hyperparameter-optimization
+  - file: 07-tabular-learning/shap-model-interpretation
+  - file: 07-tabular-learning/imblearn-targeted-modeling
+
+# Time Series
+- file: 08-time-series/_intro
+  sections:
+  - file: 08-time-series/statsmodels-temporal-analysis
+  - file: 08-time-series/prophet-forecasting-algorithms
+  - file: 08-time-series/sktime-forecasting-pipeline
+  - file: 08-time-series/darts-deep-forecasting
+
+# Unsupervised Learning
+- file: 09-unsupervised-learning/_intro
+  sections:
+  - file: 09-unsupervised-learning/mlxtend-association-rules
+    title: "(w) MLxtend: Association Rules"
+  - file: 09-unsupervised-learning/sklearn-clustering
+  - file: 09-unsupervised-learning/sklearn-dimensional-reduction
+  - file: 09-unsupervised-learning/pyod-anomaly-detection
+
+# Deep Learning
+- file: 10-deep-learning/_intro
+  sections:
+  - file: 10-deep-learning/gensim-text-mining
+  - file: 10-deep-learning/opencv-image-processing
+    # title: "(w) OpenCV: Image Processing"
+  - file: 10-deep-learning/numpy-gradient-descent
+  - file: 10-deep-learning/keras-multilayer-perceptron
+  - file: 10-deep-learning/keras-recurrent-networks
+  - file: 10-deep-learning/keras-convolutional-networks
+    # title: "(w) Keras: Convolutional Networks"
+  - file: 10-deep-learning/pytorch-deep-learning
+  - file: 10-deep-learning/transformers-transfer-learning
+    # title: "(w) Transformers: Transfer Learning"
+
+# R Programming
+- file: 11-r-programing/_intro
+  sections:
+  - file: 11-r-programing/r-basic-concepts
+  - file: 11-r-programing/r-data-structures
+  - file: 11-r-programing/tidyverse-data-wrangling
+  - file: 11-r-programing/dplyr-data-cleaning
+  - file: 11-r-programing/ggplot-data-visualization
+  - file: 11-r-programing/r-statistics
