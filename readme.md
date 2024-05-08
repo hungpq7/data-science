@@ -18,5 +18,7 @@ pip install -r requirements.txt
 ```
 
 ```html
+<code style='font-size:13px;'>True</code>
 &#9800;&nbsp;<b>Note</b><br>
+&#9801;&nbsp;<b>Best practice</b><br>
 ```
