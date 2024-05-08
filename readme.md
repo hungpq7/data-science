@@ -20,7 +20,8 @@ pip install -r requirements.txt
 
 
 ```html
-<code style='font-size:13px;'>True</code>
+<code style="font-size:13px">True</code>
+<code style="font-size:13px"><a href='https://github.com/'>True</a></code>
 &#9800;&nbsp;<b>Note</b><br>
 &#9801;&nbsp;<b>Best practice</b><br>
 ```
