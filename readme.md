@@ -22,6 +22,7 @@ pip install -r requirements.txt
 ```html
 <code style="font-size:13px">True</code>
 <code style="font-size:13px"><a href='https://github.com/'>True</a></code>
+<img src='../_image/cross_validation.png' style='height:300px; margin:20px auto 20px;'>
 &#9800;&nbsp;<b>Note</b><br>
 &#9801;&nbsp;<b>Tip</b><br>
 ```
