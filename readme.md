@@ -25,6 +25,9 @@ pip install -r requirements.txt
 &#9800;&nbsp;<b>Tip</b><br>
 &#9800;&nbsp;<b>Note</b><br>
 &#9800;&nbsp;<b>Practice</b><br>
+
+---
+*&#9829; By Quang Hung x Thuy Linh &#9829;*
 ```
 
 ```
