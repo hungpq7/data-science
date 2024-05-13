@@ -2,9 +2,10 @@ from .config import config_display
 config_display()
 
 from .alias import (
+    np, pd,
     linalg, stats,
-    sym, nx, np,
     plt, sns,
+    sym, nx,
 )
 
 from .plotting import plot_vectors
