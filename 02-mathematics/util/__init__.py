@@ -3,8 +3,8 @@ config_display()
 
 from .alias import (
     linalg, stats,
-    sympy, nx, np,
-    plt, sns
+    sym, nx, np,
+    plt, sns,
 )
 
-from .misc import plot_vectors
+from .plotting import plot_vectors
