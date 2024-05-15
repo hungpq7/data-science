@@ -9,3 +9,5 @@ from .alias import (
 )
 
 from .plotting import plot_vectors
+
+from .hypothesis_testing.z_test import MeanZTest, ProportionZTest
