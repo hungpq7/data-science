@@ -36,4 +36,20 @@ class TTestIndSample(BaseTest):
         self.dist = stats.t(self.dof)
 
 class TTestPairedSample(BaseTest):
-    def 
+    def __init__(self, x1, x2, const=0, **kwargs):
+        super().__init__(**kwargs)
+        self.x1 = x1
+        self.x2 = x2
+        self.const = const
+        self.objective = 'mean1 - mean2'
+    
+    def _compute_stats(self):
+        x_d = self.x1 - self.x2
+        n_d = x_d.shape[0]
+        mean_d = x_d.mean()
+        var_d = x_d.var(ddof=1)
+        self.test_stat = (mean_d - self.const) / np.sqrt(var_d / n_d)
+        self.dof = n_d - 1
+    
+    def _set_dist(self):
+        self.dist = stats.t(self.dof)
