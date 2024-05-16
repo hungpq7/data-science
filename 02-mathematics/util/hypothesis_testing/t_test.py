@@ -34,3 +34,6 @@ class TTestIndSample(BaseTest):
     
     def _set_dist(self):
         self.dist = stats.t(self.dof)
+
+class TTestPairedSample(BaseTest):
+    def 
