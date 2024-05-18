@@ -121,3 +121,67 @@ df_student = pd.DataFrame(
         ('120001', 'Female')
     ]
 )
+
+df_sales = pd.DataFrame(
+    columns=['color', '2000 Q1', '2000 Q2', '2000 Q3', '2000 Q4'],
+    data=[
+        ['red', 1000, 1200, 1500, 1700],
+        ['green', 1500, 1500, 1575, 1800],
+        ['blue', 2000, 2200, 2000, 2800]
+    ]
+)
+
+df_long = pd.DataFrame(
+    columns=['Market', 'Color', 'Size', 'Price', 'Sales'],
+    data=[
+        ('Asian', 'Red', 'Large', 17, 68000),
+        ('Asian', 'Red', 'Small', 11, 44000),
+        ('Asian', 'Blue', 'Large', 19, 57000),
+        ('Asian', 'Blue', 'Small', 13, 52000),
+        ('Europe', 'Red', 'Large', 18, 81000),
+        ('Europe', 'Red', 'Small', 12, 72000),
+        ('Europe', 'Blue', 'Large', 20, 90000),
+        ('Europe', 'Blue', 'Small', 14, 77000)
+    ]
+)
+
+df_sales_2000 = pd.DataFrame(
+    columns=['year', 'quarter', 'target', 'sales'],
+    data=[
+        (2000, 1, 40000, 35000),
+        (2000, 2, 50000, 38000),
+        (2000, 3, 70000, 78000),
+        (2000, 4, 85000, 90000)
+    ]
+)
+
+df_sales_2001 = pd.DataFrame(
+    columns=['year', 'quarter', 'target', 'sales', 'profit'],
+    data=[
+        (2001, 1, 50000, 60000, 20000),
+        (2001, 2, 60000, 65000, 21000),
+        (2001, 3, 70000, 82000, 27000),
+        (2001, 4, 85000, 94000, 35000)
+    ]
+)
+
+df_income = pd.DataFrame(
+    columns=['name', 'income_before_tax', 'tax_band'],
+    data=[
+        ('Hannah', 12000, 'Allowance'),
+        ('James', 30000, 'Basic'),
+        ('Gabriel', 7000, 'Allowance'),
+        ('Smith', 20000, 'Basic'),
+        ('Alex', 100000, 'Higher')
+    ]
+)
+
+df_tax = pd.DataFrame(
+    columns=['band', 'income_range', 'tax_rate'],
+    data=[
+        ('Allowance', 'Up to 12,500', 0),
+        ('Basic', '12,501 to 50,000', 0.2),
+        ('Higher', '50,001 to 150,000', 0.4),
+        ('Additional', 'Over 150,000', 0.45)
+    ]
+)
