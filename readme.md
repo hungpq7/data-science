@@ -18,8 +18,8 @@ pip install -r requirements.txt
 ```
 
 ```html
-<code style="font-size:13px">True</code>
-<code style="font-size:13px"><a href="">True</a></code>
+<code style="font-size:13px"></code>
+<code style="font-size:13px"><a href=""></a></code>
 <img src="../image/chap-02/cross_validation.png" style="height:300px; margin:20px auto 20px;">
 
 &#9800;&nbsp;<b>Tip</b><br>

@@ -1,5 +1,7 @@
 import numpy as np
+import scipy.stats as stats
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 def plot_vectors(data):
     data = np.array(data).T
@@ -44,4 +46,46 @@ def plot_vectors(data):
     ax.axis('scaled')
     ax.set_xlim(left, right)
     ax.set_ylim(lower, upper)
+    plt.show()
+
+def plot_pp(var, dist):
+    var = var.flatten()
+    n = len(var)
+    pe = (np.arange(1, n+1)-0.5) / n
+    pp = np.sort(dist.cdf(var))
+    
+    fig, ax = plt.subplots(ncols=2, figsize=(10,4), tight_layout=True)
+    
+    ax[0].plot(np.linspace(0,1), np.linspace(0,1), 'grey')
+    ax[0].plot(pe, pp, 'o', color='steelblue', alpha=0.5)
+    ax[0].axis('scaled')
+    ax[0].set_xlabel('Observed variable')
+    ax[0].set_ylabel('Theoretical distribution')
+    ax[0].set_title('P-P Plot')
+    
+    ax[1] = sns.histplot(var, edgecolor='w', kde=True)
+    ax[1].set_title('Histogram')
+    
+    plt.show()
+
+def plot_qq(var, dist):
+    # var = stats.zscore(var)
+    var = np.sort(var)
+    n = var.size
+    cut = np.linspace(0, 1, n-1)
+    quantile_var = np.quantile(var, q=cut)
+    quantile_dist = [stats.norm.ppf(q) for q in cut]
+    
+    fig, ax = plt.subplots(ncols=2, figsize=(10,4), tight_layout=True)
+    
+    ax[0].plot(quantile_dist, quantile_dist, 'grey')
+    ax[0].plot(quantile_var, quantile_dist, 'o', color='steelblue')
+    ax[0].axis('scaled')
+    ax[0].set_title('Q-Q Plot')
+    ax[0].set_xlabel('Observed quantile')
+    ax[0].set_ylabel('Theoretical quantile')
+    
+    ax[1] = sns.histplot(var, kde=True, edgecolor='w')
+    ax[1].set_title('Histogram')
+    
     plt.show()
