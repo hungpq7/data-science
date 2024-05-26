@@ -17,7 +17,7 @@ class ZTestMean(BaseTest):
         else:
             self.type = '1-sample'
             self.objective = 'mean'
-    
+
     def _compute_stats(self):
         n1 = self.x1.shape[0]
         mean1 = self.x1.mean()
