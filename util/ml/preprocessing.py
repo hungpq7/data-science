@@ -1,5 +1,6 @@
 from feature_engine.imputation import MeanMedianImputer
 from feature_engine.imputation import ArbitraryNumberImputer
+from sklearn.impute import KNNImputer
 
 from sklearn.preprocessing import Normalizer as NormalizeScaler
 from sklearn.preprocessing import StandardScaler

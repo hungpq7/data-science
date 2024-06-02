@@ -1,0 +1,6 @@
+from feature_engine.selection import DropConstantFeatures as VariableSelector
+from feature_engine.selection import DropDuplicateFeatures as DuplicationSelector
+from feature_engine.selection import SmartCorrelatedSelection as CorrelationSelector
+from sklearn.feature_selection import GenericUnivariateSelect as TargetScoringSelector
+from feature_engine.selection import SelectByShuffling as ShuffleSelector
+from sklearn.feature_selection import RFECV as RankedEliminationSelector
