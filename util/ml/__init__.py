@@ -82,7 +82,13 @@ from .preprocessing import (
 )
 
 from .feature_selection import (
-    
+    VariableSelector,
+    DuplicationSelector,
+    CorrelationSelector,
+    TargetScoringSelector,
+    SequentialFeatureSelector,
+    RankedEliminationSelector,
+    ShuffleSelector,
 )
 
 from .pipeline import (
