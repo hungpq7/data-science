@@ -31,4 +31,4 @@ from .common.jupyter import (
     clear_output,
 )
 
-import ml
+import skl
