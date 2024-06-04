@@ -1,5 +1,3 @@
-from sklearn import metrics
-
 from .classification import (
     LinearClassifier,
     GaussianProcessClassifier,
