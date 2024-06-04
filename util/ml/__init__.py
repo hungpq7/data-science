@@ -1,3 +1,5 @@
+from sklearn import metrics
+
 from .classification import (
     LinearClassifier,
     GaussianProcessClassifier,
@@ -24,6 +26,13 @@ from .regression import (
     GradientBoostingRegressor,
     XGBoostRegressor,
     LightGBMRegressor,
+)
+
+from .ensemble import (
+    BaggingClassifier,
+    BaggingRegressor,
+    StackingClassifier,
+    StackingRegressor,
 )
 
 from .clustering import (

@@ -23,4 +23,12 @@ from .common.misc import (
     chronometer,
 )
 
+from .common.jupyter import (
+    display_html,
+    display_md,
+    display_image,
+    display_iframe,
+    clear_output,
+)
+
 import ml
