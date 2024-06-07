@@ -70,6 +70,7 @@ from .preprocessing import (
     ArbitraryNumberImputer,
     KNNImputer,
 
+    MinMaxScaler,
     NormalizeScaler,
     StandardScaler,
     RobustScaler,
