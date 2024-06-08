@@ -14,6 +14,8 @@ from category_encoders import TargetEncoder
 from category_encoders import MEstimateEncoder
 from category_encoders import LeaveOneOutEncoder
 from category_encoders import WOEEncoder
+from category_encoders import HelmertEncoder
+from category_encoders import CountEncoder
 
 from feature_engine.transformation import LogCpTransformer as LogTransformer
 from feature_engine.transformation import PowerTransformer

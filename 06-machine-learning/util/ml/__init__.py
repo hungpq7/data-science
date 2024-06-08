@@ -82,6 +82,8 @@ from .preprocessing import (
     MEstimateEncoder,
     LeaveOneOutEncoder,
     WOEEncoder,
+    HelmertEncoder,
+    CountEncoder,
 
     LogTransformer,
     PowerTransformer,
