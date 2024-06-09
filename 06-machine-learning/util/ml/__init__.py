@@ -66,6 +66,7 @@ from .optimization import (
 )
 
 from .preprocessing import (
+    SimpleImputer,
     MeanMedianImputer,
     ArbitraryNumberImputer,
     KNNImputer,
@@ -85,6 +86,7 @@ from .preprocessing import (
     HelmertEncoder,
     CountEncoder,
 
+    FunctionTransformer,
     LogTransformer,
     PowerTransformer,
     BoxCoxTransformer,

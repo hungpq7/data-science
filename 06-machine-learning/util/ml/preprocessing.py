@@ -1,3 +1,4 @@
+from sklearn.impute import SimpleImputer
 from feature_engine.imputation import MeanMedianImputer
 from feature_engine.imputation import ArbitraryNumberImputer
 from sklearn.impute import KNNImputer
@@ -17,6 +18,7 @@ from category_encoders import WOEEncoder
 from category_encoders import HelmertEncoder
 from category_encoders import CountEncoder
 
+from sklearn.preprocessing import FunctionTransformer
 from feature_engine.transformation import LogCpTransformer as LogTransformer
 from feature_engine.transformation import PowerTransformer
 from feature_engine.transformation import BoxCoxTransformer
