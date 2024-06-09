@@ -16,9 +16,9 @@
 
 
 
-def plotPRChart(yTrue, yProb):
+def plotPRChart(y_true, yProb):
     from sklearn.metrics import precision_recall_curve
-    precision, recall, threshold = precision_recall_curve(yTrue, yProb)
+    precision, recall, threshold = precision_recall_curve(y_true, yProb)
     precision = precision[:-1]
     recall = recall[:-1]
 
