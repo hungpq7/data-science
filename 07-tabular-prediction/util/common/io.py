@@ -3,11 +3,6 @@ from json import (
     dumps as dump_json,
 )
 
-from yaml import (
-    safe_load as load_yaml,
-    dump as dump_yaml,
-)
-
 def read_text(path):
     content = None
     try:
