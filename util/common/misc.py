@@ -14,5 +14,6 @@ def chronometer(inner):
         end = dt.datetime.now()
         duration = end - start
         msg = f'Function {inner.__name__} - elapsed time {duration}'
+        print(msg)
         return output
     return wrapper

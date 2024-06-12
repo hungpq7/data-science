@@ -66,10 +66,12 @@ from .optimization import (
 )
 
 from .preprocessing import (
+    SimpleImputer,
     MeanMedianImputer,
     ArbitraryNumberImputer,
     KNNImputer,
 
+    MinMaxScaler,
     NormalizeScaler,
     StandardScaler,
     RobustScaler,
@@ -81,7 +83,10 @@ from .preprocessing import (
     MEstimateEncoder,
     LeaveOneOutEncoder,
     WOEEncoder,
+    HelmertEncoder,
+    CountEncoder,
 
+    FunctionTransformer,
     LogTransformer,
     PowerTransformer,
     BoxCoxTransformer,
