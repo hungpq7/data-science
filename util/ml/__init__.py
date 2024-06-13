@@ -27,6 +27,8 @@ from .regression import (
 )
 
 from .ensemble import (
+    VotingClassifier,
+    VotingRegressor,
     BaggingClassifier,
     BaggingRegressor,
     StackingClassifier,
