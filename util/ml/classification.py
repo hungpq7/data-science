@@ -1,6 +1,6 @@
 from sklearn.linear_model import LogisticRegression as LinearClassifier
 from sklearn.gaussian_process import GaussianProcessClassifier
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsClassifier as KNNClassifier
 from sklearn.svm import SVR as SVMClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier

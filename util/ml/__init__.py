@@ -1,7 +1,7 @@
 from .classification import (
     LinearClassifier,
     GaussianProcessClassifier,
-    KNeighborsClassifier,
+    KNNClassifier,
     SVMClassifier,
     DecisionTreeClassifier,
     RandomForestClassifier,
