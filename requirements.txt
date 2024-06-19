@@ -1,4 +1,4 @@
-autogluon.tabular[xgboost,lightgbm,catboost,ray]
+autogluon.tabular[xgboost,lightgbm,catboost,ray]==1.1.1
 beautifulsoup4==4.12.3
 catboost==1.1.1
 category-encoders==2.6.3
