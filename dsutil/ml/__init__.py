@@ -63,7 +63,6 @@ from .detection import (
 from .optimization import (
     GridSearchCV,
     RandomSearchCV,
-    TuneSearchCV,
     train_test_split,
 )
 
