@@ -11,6 +11,7 @@ Mathematics &bull; Data Manipulation &bull; Data Visualization &bull; Machine Le
 [![Made with LaTex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
 
 ```python
+conda activate base
 conda remove -y -n ds --all
 conda create -y -n ds python=3.10.0 pip=24.0
 conda activate ds
