@@ -10,14 +10,18 @@ Mathematics &bull; Data Manipulation &bull; Data Visualization &bull; Machine Le
 [![Made with Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f)](http://commonmark.org)
 [![Made with LaTex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
 
+### Command line
 ```python
 conda activate base
 conda remove -y -n ds --all
 conda create -y -n ds python=3.10.0 pip=24.0
 conda activate ds
 pip install -r requirements.txt
+
+conda create --name ds-optimize --clone ds
 ```
 
+### HTML
 ```html
 <code style="font-size:13px"></code>
 <img src="../image/chap-07/.png" style="height:300px; margin:20px auto 20px;">
@@ -30,9 +34,8 @@ pip install -r requirements.txt
 *&#9829; By Quang Hung x Thuy Linh &#9829;*
 ```
 
-```
-`[^`]+`
-```
-
+### Python imports
+```python
 import sys; sys.path.append('..')
 from dsutil import np, pd, plt, sns, ml, stats
+```
