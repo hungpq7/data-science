@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ```html
 <code style="font-size:13px"></code>
-<img src="../image/chap-06/.png" style="height:300px; margin:20px auto 20px;">
+<img src="../image/chap-07/.png" style="height:300px; margin:20px auto 20px;">
 
 &#9800;&nbsp;<b>Tip</b><br>
 &#9800;&nbsp;<b>Note</b><br>
@@ -33,3 +33,6 @@ pip install -r requirements.txt
 ```
 `[^`]+`
 ```
+
+import sys; sys.path.append('..')
+from dsutil import np, pd, plt, sns, ml, stats
