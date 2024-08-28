@@ -24,7 +24,7 @@ conda create --name ds-optimize --clone ds
 ### HTML
 ```html
 <code style="font-size:13px"></code>
-<img src="../image/chap-08/.png" style="height:300px; margin:20px auto 20px;">
+<img src="../image/chap-09/.png" style="height:300px; margin:20px auto 20px;">
 
 &#9800;&nbsp;<b>Tip</b><br>
 &#9800;&nbsp;<b>Note</b><br>
