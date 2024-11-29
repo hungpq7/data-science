@@ -39,3 +39,7 @@ conda create --name ds-optimize --clone ds
 import sys; sys.path.append('..')
 from dsutil import np, pd, plt, sns, ml, stats
 ```
+
+Force update URLs
+- NBViewer: `?flush_cache=true`
+- Github: `?token=$(date +%s)`
