@@ -7,7 +7,7 @@ project:
   description: Practical notes and notebooks for tabular ML
   authors:
     - name: Your Name
-      orcid: ""
+      # orcid: ""
   keywords: [machine learning, tabular, notebooks]
 
   # --- where the content lives & what's excluded ---
@@ -54,9 +54,9 @@ project:
   #   - references.bib
 
   # --- optional: link to your GitHub repo for nice "Edit on GitHub" buttons ---
-  github:
-    repository_url: https://github.com/hungpq7/data-science
-    branch: main
+  # github:
+  #   repository_url: https://github.com/hungpq7/data-science
+  #   branch: main
 
 site:
   template: book-theme
