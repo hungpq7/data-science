@@ -23,27 +23,27 @@ project:
   # --- table of contents (sample lines) ---
   # You can keep your TOC right here instead of a separate _toc.yml.
   toc:
-    - file: index.md
-    - file: getting-started.md
-    - title: Data Prep
+    # - file: index.md
+    # - file: getting-started.md
+    - title: Python
       children:
-        - file: prep/overview.md
-        - file: prep/missing-values.ipynb
-        - file: prep/encoding.md
-    - title: Modeling
-      children:
-        - file: modeling/baselines.ipynb
-        - file: modeling/catboost.ipynb
-        - file: modeling/xgboost.ipynb
-    - title: Evaluation
-      children:
-        - file: eval/metrics.md
-        - file: eval/cv-strategy.ipynb
-    - title: Extras
-      children:
-        - url: https://scikit-learn.org/stable/
-          title: Scikit-learn docs
-        - file: about.md
+        - file: content/01-python-programing/01-python-basic-concepts.ipynb
+    #     - file: prep/missing-values.ipynb
+    #     - file: prep/encoding.md
+    # - title: Modeling
+    #   children:
+    #     - file: modeling/baselines.ipynb
+    #     - file: modeling/catboost.ipynb
+    #     - file: modeling/xgboost.ipynb
+    # - title: Evaluation
+    #   children:
+    #     - file: eval/metrics.md
+    #     - file: eval/cv-strategy.ipynb
+    # - title: Extras
+    #   children:
+    #     - url: https://scikit-learn.org/stable/
+    #       title: Scikit-learn docs
+    #     - file: about.md
 
   # --- execution ---
   # Execution is OFF by default in MyST/JB2; we DO NOT enable it here.
@@ -55,15 +55,15 @@ project:
 
   # --- optional: link to your GitHub repo for nice "Edit on GitHub" buttons ---
   github:
-    repository_url: https://github.com/hungpq7/tabular-book
-    # branch: main  # uncomment if different from default
+    repository_url: https://github.com/hungpq7/data-science
+    branch: main
 
 site:
   template: book-theme
   title: Tabular Book
   options:
-    logo: assets/logo.png     # (optional) path to your logo
-    favicon: assets/favicon.ico  # (optional)
+    logo: image/book/logo.svg     # (optional) path to your logo
+    favicon: image/book/favicon.ico  # (optional)
   nav: []  # keep empty; we’re using project.toc as the nav
   actions:
     - title: Learn MyST
