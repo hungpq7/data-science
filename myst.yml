@@ -3,13 +3,19 @@ version: 1
 project:
   id: 281c45d7-329e-4455-b825-213e2e32a356
   title: Data Science
-  # description:
-  # keywords: []
-  # authors: []
+  description: A collection of data science projects and resources.
+  keywords: [data science, machine learning, python, r, statistics]
+  authors: [Quang Hung, Thuy Linh]
   github: https://github.com/hungpq7/data-science
+  toc:
+    - file: README.md
+    - file: 01-python-programing/init.md
+      children:
+        - file: 01-python-programing/01-python-basic-concepts.ipynb
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
   options:
     favicon: image/book/favicon.ico
     logo: image/book/logo.svg
+    style: custom.css
