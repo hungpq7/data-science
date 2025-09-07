@@ -1,0 +1,71 @@
+# See reference: https://mystmd.org/guide / https://next.jupyterbook.org/upgrade/
+version: 1
+
+project:
+  # --- basic metadata ---
+  title: Tabular Book
+  description: Practical notes and notebooks for tabular ML
+  authors:
+    - name: Your Name
+      orcid: ""
+  keywords: [machine learning, tabular, notebooks]
+
+  # --- where the content lives & what's excluded ---
+  # (MyST finds .md and .ipynb recursively unless excluded)
+  exclude:
+    - _build/**
+    - .venv/**
+    - node_modules/**
+    - .mamba/**
+    - .github/**
+    - README*.md  # keep if you don't want it in the nav
+
+  # --- table of contents (sample lines) ---
+  # You can keep your TOC right here instead of a separate _toc.yml.
+  toc:
+    - file: index.md
+    - file: getting-started.md
+    - title: Data Prep
+      children:
+        - file: prep/overview.md
+        - file: prep/missing-values.ipynb
+        - file: prep/encoding.md
+    - title: Modeling
+      children:
+        - file: modeling/baselines.ipynb
+        - file: modeling/catboost.ipynb
+        - file: modeling/xgboost.ipynb
+    - title: Evaluation
+      children:
+        - file: eval/metrics.md
+        - file: eval/cv-strategy.ipynb
+    - title: Extras
+      children:
+        - url: https://scikit-learn.org/stable/
+          title: Scikit-learn docs
+        - file: about.md
+
+  # --- execution ---
+  # Execution is OFF by default in MyST/JB2; we DO NOT enable it here.
+  # (Only runs if you pass --execute in the CLI.) :contentReference[oaicite:1]{index=1}
+
+  # --- optional: bibliography (if you used it in v1) ---
+  # bibliography:
+  #   - references.bib
+
+  # --- optional: link to your GitHub repo for nice "Edit on GitHub" buttons ---
+  github:
+    repository_url: https://github.com/hungpq7/tabular-book
+    # branch: main  # uncomment if different from default
+
+site:
+  template: book-theme
+  title: Tabular Book
+  options:
+    logo: assets/logo.png     # (optional) path to your logo
+    favicon: assets/favicon.ico  # (optional)
+  nav: []  # keep empty; we’re using project.toc as the nav
+  actions:
+    - title: Learn MyST
+      url: https://mystmd.org/guide
+  domains: []  # custom domains if you use them (optional)
