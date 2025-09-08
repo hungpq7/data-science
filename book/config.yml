@@ -32,7 +32,7 @@ html:
       # show_navbar_depth: 1
 
 launch_buttons:
-  notebook_interface: classic # classic
+  notebook_interface: jupyterlab # classic
   binderhub_url: https://mybinder.org
   jupyterhub_url: ""
   deepnote_url: https://deepnote.com
