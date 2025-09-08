@@ -1,4 +1,4 @@
-title: ''
+title: DATA SCIENCE
 author: Quang Hung &#9829; Thuy Linh
 logo: book/image/logo.svg
 only_build_toc_files: true
@@ -8,7 +8,6 @@ exclude_patterns: [
   '**.ipynb_checkpoints',
   'README.md',
   'Thumbs.db',
-  'util/refactor.ipynb'
 ]
 
 execute:
@@ -23,6 +22,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   use_download_button: true
+  extra_css: book/custom.css
 
 # sphinx:
 #   config:
@@ -32,7 +32,7 @@ html:
       # show_navbar_depth: 1
 
 launch_buttons:
-  notebook_interface: jupyterlab # classic
+  notebook_interface: classic # classic
   binderhub_url: https://mybinder.org
   jupyterhub_url: ""
   deepnote_url: https://deepnote.com

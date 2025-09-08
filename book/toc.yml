@@ -1,11 +1,11 @@
 format: jb-book
-root: util/intro
+root: book/home
 chapters:
 
 # Python Programming
 - file: 01-python-programing/_intro
   sections:
-  - file: 01-python-programing/01-python-basic-concepts
+  - file: 01-python-programing/01-python-basic-concepts.ipynb
 #   - file: 01-python-programing/python-data-types
 #   - file: 01-python-programing/python-data-containers
 #   - file: 01-python-programing/python-functions-objects
