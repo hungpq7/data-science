@@ -19,7 +19,8 @@ table td:hover {
 }
 
 th, td {
-  padding: 0px;
+    padding: 0;
+    line-height: 1.3;
 }
 
 a {
