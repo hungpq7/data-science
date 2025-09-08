@@ -14,6 +14,14 @@ table tr:hover {
     background-color: transparent;
 }
 
+table td:hover {
+    background-color: transparent;
+}
+
+th, td {
+  padding: 2px;
+}
+
 a {
     text-decoration: none;
 }
