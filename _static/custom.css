@@ -10,7 +10,7 @@ span.pre {
     font-size: 14px;
 }
 
-tr:hover {
+tr:hover, tr:nth-child(even):hover, td:hover {
     background-color: inherit !important;
 }
 
