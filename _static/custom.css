@@ -10,11 +10,11 @@ span.pre {
     font-size: 14px;
 }
 
-table tr:hover {
+tr:hover {
     background-color: transparent;
 }
 
-table td:hover {
+td:hover {
     background-color: transparent;
 }
 
