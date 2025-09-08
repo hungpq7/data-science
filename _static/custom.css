@@ -11,11 +11,7 @@ span.pre {
 }
 
 tr:hover {
-    background-color: transparent;
-}
-
-td:hover {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 th, td {
