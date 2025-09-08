@@ -1,0 +1,28 @@
+th, td {
+    font-size: 12px;
+}
+
+span.pre {
+    font-size: 12px;
+}
+
+.math, p, a, div.highlight {
+    font-size: 14px;
+}
+
+p {
+    margin-bottom: 0.75em;
+}
+
+a.reference.internal {
+    font-size: 12.5px;
+}
+
+ul.simple {
+    line-height: 1.3;
+}
+
+h4 {font-size: 20px}
+h3 {font-size: 24px}
+h2 {font-size: 30px}
+h1 {font-size: 36px}
