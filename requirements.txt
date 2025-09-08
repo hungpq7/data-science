@@ -1,3 +1,4 @@
-jupyter-book>=2.0.0a0
-# pre-commit
-# sphinxcontrib.mermaid
+jupyter-book
+matplotlib
+numpy
+ghp-import
