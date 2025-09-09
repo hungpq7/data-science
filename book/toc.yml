@@ -7,7 +7,7 @@ chapters:
   sections:
   - file: 01-python-programing/01-python-basic-concepts
   - file: 01-python-programing/02-python-data-types
-  - file: 01-python-programing/03-python-data-containers
+  - file: 01-python-programing/03-python-data-structure
 #   - file: 01-python-programing/python-functions-objects
 #   - file: 01-python-programing/python-algorithms
 #     title: "(w) Python: Algorithms"
