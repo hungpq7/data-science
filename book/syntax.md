@@ -1,6 +1,6 @@
 ### Insert image
 ```
-:::{image} ../image/gradient.png
+:::{image} ../image/GRADIENT.png
 :height: 350px
 :align: center
 :::
@@ -8,23 +8,28 @@
 
 ### Grey block
 ```
-:::{topic} This is topic title
-This is topic content
+:::{topic} TITLE
+CONTENT
 :::
 ```
 
 ### Admonition
+Selected classes:
+- tip (green)
+- note (blue)
+- attention (orange)
+- danger (red)
+
 ```
-tip       : green
-note      : blue
-attention : orange
-danger    : red
-
 :::{attention}
+CONTENT
 :::
+```
 
-:::{admonition}
+```
+:::{admonition} TITLE
 :class: attention
+CONTENT
 :::
 ```
 
