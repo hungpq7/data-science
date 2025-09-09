@@ -11,7 +11,7 @@ span.pre {
 }
 
 tr:hover, tr:nth-child(even):hover, td:hover {
-    background-color: indianred !important;
+    background-color: bisque !important;
 }
 
 /* #0071BC */
@@ -32,6 +32,11 @@ p {
 
 a.reference.internal {
     font-size: 12.5px;
+}
+
+a.current.reference.internal {
+    color: cornflowerblue;
+    /* color: #0071BC; */
 }
 
 ul.simple {
