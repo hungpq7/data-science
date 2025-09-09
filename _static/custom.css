@@ -10,9 +10,22 @@ span.pre {
     font-size: 14px;
 }
 
-tr:hover, tr:nth-child(even):hover, td:hover {
+/* tr:hover, tr:nth-child(even):hover, td:hover {
     background-color: inherit !important;
+} */
+
+/* Jupyter Book (pydata-sphinx-theme): keep table row color unchanged on hover */
+.bd-content table.docutils:not(.field-list) tbody tr:hover > * {
+  background: revert !important;     /* restores the original striping */
+  box-shadow: none !important;       /* removes the blue hover line */
 }
+
+/* If any Bootstrap .table-hover styles sneak in */
+.table-hover tbody tr:hover > * {
+  background: revert !important;
+  box-shadow: none !important;
+}
+
 
 th, td {
     padding: 0;
