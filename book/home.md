@@ -3,13 +3,68 @@ title: Data Science with Python
 ---
 
 # Data Science
+A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
-
-Check out the content pages bundled with this sample book to see more.
-
-```{tableofcontents}
+## Topic
 ```
+:::{topic} TITLE
+CONTENT
+:::
+```
+
+:::{topic} TITLE
+CONTENT
+:::
+
+## Callout
+With [Sphinx](https://sphinx-book-theme.readthedocs.io/en/stable/reference/kitchen-sink/admonitions.html)
+- `tip` (green)
+- `note` (blue)
+- `attention` (orange)
+- `danger` (red)
+
+```
+:::{note}
+Attention is all you need.
+:::
+```
+
+:::{note}
+Attention is all you need.
+:::
+
+---
+
+```
+:::{admonition} Transformer
+:class: attention
+Attention is all you need.
+:::
+```
+
+:::{admonition} Transformer
+:class: attention
+Attention is all you need.
+:::
+
+## Diagram
+With [Mermaid](https://mermaid.js.org/)
+
+```
+:::{mermaid}
+:align: center
+sequenceDiagram
+    Alice ->> John: Hello John, how are you?
+    John -->> Alice: Great!
+    Alice -) John: See you later!
+
+:::
+```
+
+:::{mermaid}
+:align: center
+sequenceDiagram
+    Alice ->> John: Hello John, how are you?
+    John -->> Alice: Great!
+    Alice -) John: See you later!
+:::
