@@ -39,6 +39,16 @@ li.toctree-l1 {
     font-size: 13px;
 }
 
+div.sd.tab-set.docutils {
+    --pst-color-primary: white;
+    /* --pst-color-secondary: unset; */
+}
+
+a[href^="http"]:not([href*="your-domain.com"]) {
+  target-name: new;
+  target-new: tab;
+}
+
 h4 {font-size: 20px}
 h3 {font-size: 24px}
 h2 {font-size: 30px}

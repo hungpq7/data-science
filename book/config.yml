@@ -22,7 +22,8 @@ html:
   use_issues_button: true
   use_repository_button: true
   use_download_button: true
-  extra_css: book/custom.css
+  # extra_css: book/custom.css
+  external_links_in_new_tab: true
 
 sphinx:
   extra_extensions:
