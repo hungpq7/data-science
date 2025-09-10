@@ -1,4 +1,4 @@
-title: DATA SCIENCE
+title: Data Science
 author: Quang Hung &#9829; Thuy Linh
 logo: book/image/logo.svg
 only_build_toc_files: true
@@ -23,16 +23,20 @@ html:
   use_repository_button: true
   use_download_button: true
   # extra_css: book/custom.css
-  external_links_in_new_tab: true
 
 sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
   config:
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    html_js_files: https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
-    # html_theme_options:
-      # show_navbar_depth: 1
+    html_static_path: book/static
+    html_js_files:
+      - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+      - url_new_tab.js
+    html_css_files:
+      - ui_tweak.css
+    html_theme_options:
+      show_navbar_depth: 1
 
 launch_buttons:
   notebook_interface: jupyterlab # classic

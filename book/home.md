@@ -3,15 +3,21 @@ title: Data Science with Python
 ---
 
 # Data Science
-A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org){:target="_blank"}.
+A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
-<a href="https://jupyterbook.org" target="_blank">Hello, world!</a>
 
 ## Local build
 ```
 rm -rf _build
 jb build . --config book/config.yml --toc book/toc.yml
 ```
+
+## Hyperlinks
+```
+- [Jupyter Book](https://jupyterbook.org)
+```
+
+- [Jupyter Book](https://jupyterbook.org)
 
 ## Cell tags
 ```
