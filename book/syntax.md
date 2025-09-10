@@ -1,7 +1,0 @@
-
-
-### Local build
-```
-rm -rf _build
-jb build . --config book/config.yml --toc book/toc.yml
-```

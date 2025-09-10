@@ -1,0 +1,9 @@
+name: tabular
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.8
+  - pandas=2.1.0
+  - pip
+  - pip:
+      - seaborn==1.1.0

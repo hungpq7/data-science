@@ -32,16 +32,11 @@ a.reference.internal {
 }
 
 ul.simple {
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 li.toctree-l1 {
     font-size: 13px;
-}
-
-div.sd.tab-set.docutils {
-    --pst-color-primary: white;
-    /* --pst-color-secondary: unset; */
 }
 
 h4 {font-size: 20px}

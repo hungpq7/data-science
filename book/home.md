@@ -15,9 +15,11 @@ jb build . --config book/config.yml --toc book/toc.yml
 ## Hyperlinks
 ```
 - [Jupyter Book](https://jupyterbook.org)
+- [`langchain`](https://www.langchain.com/)
 ```
 
 - [Jupyter Book](https://jupyterbook.org)
+- [`langchain`](https://www.langchain.com/)
 
 ## Cell tags
 ```

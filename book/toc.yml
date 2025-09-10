@@ -10,7 +10,7 @@ chapters:
   - file: 01-python-programing/04-python-functions-objects
 #   - file: 01-python-programing/python-algorithms
 #     title: "(w) Python: Algorithms"
-#   - file: 01-python-programing/python-external-sources
+  - file: 01-python-programing/python-external-sources
 #   - file: 01-python-programing/selenium-web-scraping
 
 # # Mathematics
