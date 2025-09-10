@@ -15,7 +15,13 @@ jb build . --config book/config.yml --toc book/toc.yml
 
 ## Cell tags
 ```
-
+scroll-output
+hide-cell
+hide-input
+hide-output
+remove-cell
+remove-input
+remove-output
 ```
 
 ## Image

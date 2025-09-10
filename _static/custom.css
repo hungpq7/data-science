@@ -11,7 +11,7 @@ span.pre {
 }
 
 tr:hover, tr:nth-child(even):hover, td:hover {
-    background-color: aliceblue !important;
+    background-color: lavender !important;
 }
 
 th, td {
