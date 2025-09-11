@@ -14,8 +14,8 @@ chapters:
 
 # # Mathematics
 - file: 02-mathematics/_intro
-#   sections:
-#   - file: 02-mathematics/numpy-linear-algebra
+  sections:
+  - file: 02-mathematics/01-numpy-linear-algebra
 #   - file: 02-mathematics/sympy-calculus
 #   - file: 02-mathematics/numpy-probability
 #   - file: 02-mathematics/numpy-statistics

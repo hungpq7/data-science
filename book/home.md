@@ -32,6 +32,17 @@ remove-input
 remove-output
 ```
 
+## Cell metadata
+Using [Myst](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell-level-configuration)
+```json
+    "mystnb": {
+     "image": {
+      "align": "center",
+      "scale": "70%"
+     }
+    },
+```
+
 ## Image
 ```
 :::{image} ../image/chap-06/svm-hard.png

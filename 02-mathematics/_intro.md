@@ -1,4 +1,4 @@
-# 1. Mathematics
+# 2. Mathematics
 
 :::{tableofcontents}
 :::

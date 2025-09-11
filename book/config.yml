@@ -50,7 +50,7 @@ parse:
   myst_substitutions:
       sub3: My _global_ value!
   myst_enable_extensions:
-    - amsmath
+    # - amsmath
     - colon_fence
     - deflist
     - dollarmath
