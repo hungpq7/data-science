@@ -1,0 +1,28 @@
+name: pyspark4-nb
+channels:
+  - conda-forge
+dependencies:
+  # Base Python
+  - python=3.10
+
+  # Jupyter kernel
+  - ipykernel
+  - jupyterlab
+
+  # Java runtime required by Spark
+  - openjdk=17     # Spark 4.x defaults to Java 17 :contentReference[oaicite:1]{index=1}
+
+  # PySpark 4.x (latest 4.0.1)
+  - pyspark=4.0.1
+
+  # Utility to locate Spark from Python, if needed
+  - findspark
+
+  # Optional extras
+  - pandas         # For pandas-on-Spark and mixed workflows
+  - numpy
+
+  # If you want Python-only lightweight client (Spark Connect), include:
+  - pip
+  - pip:
+      - pyspark-client    # lightweight PySpark client, ~1.5 MB :contentReference[oaicite:2]{index=2}

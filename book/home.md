@@ -69,7 +69,7 @@ Attention is all you need.
 :::
 ```
 
-:::{note}
+:::{tip}
 Attention is all you need.
 :::
 

@@ -8,13 +8,12 @@ chapters:
   - file: 01-python-programing/02-python-data-types
   - file: 01-python-programing/03-python-data-structures
   - file: 01-python-programing/04-python-functions-objects
-#   - file: 01-python-programing/python-algorithms
-#     title: "(w) Python: Algorithms"
-  - file: 01-python-programing/python-external-sources
-#   - file: 01-python-programing/selenium-web-scraping
+  # - file: 01-python-programing/05-python-algorithms
+  - file: 01-python-programing/06-python-external-sources
+  - file: 01-python-programing/07-selenium-web-scraping
 
 # # Mathematics
-# - file: 02-mathematics/_intro
+- file: 02-mathematics/_intro
 #   sections:
 #   - file: 02-mathematics/numpy-linear-algebra
 #   - file: 02-mathematics/sympy-calculus
