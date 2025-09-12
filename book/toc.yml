@@ -13,10 +13,10 @@ chapters:
   - file: 01-python-programing/07-selenium-web-scraping
 
 # # Mathematics
-- file: 02-mathematics/_intro
+- file: 02_mathematics/_intro
   sections:
-  - file: 02-mathematics/01-numpy-linear-algebra
-#   - file: 02-mathematics/sympy-calculus
+  - file: 02_mathematics/01_numpy_linear_algebra
+  - file: 02_mathematics/02_sympy_calculus
 #   - file: 02-mathematics/numpy-probability
 #   - file: 02-mathematics/numpy-statistics
 #   - file: 02-mathematics/scipy-hypothesis-testing

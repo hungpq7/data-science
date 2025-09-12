@@ -33,7 +33,7 @@ remove-output
 ```
 
 ## Cell metadata
-Using [Myst](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell-level-configuration)
+Using [MyST-NB](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell-level-configuration)
 ```json
     "mystnb": {
      "image": {
