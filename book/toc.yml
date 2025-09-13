@@ -16,7 +16,7 @@ chapters:
   sections:
   - file: 02_mathematics/01_numpy_linear_algebra
   - file: 02_mathematics/02_sympy_calculus
-#   - file: 02_mathematics/03_numpy_probability
+  - file: 02_mathematics/03_numpy_probability
 #   - file: 02_mathematics/04_numpy_statistics
 #   - file: 02_mathematics/05_pingouin_hypo_test
 
