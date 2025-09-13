@@ -8,7 +8,6 @@ chapters:
   - file: 01_python_programing/02_python_data_types
   - file: 01_python_programing/03_python_data_structures
   - file: 01_python_programing/04_python_functions_objects
-  # - file: 01_python_programing/05_python_algorithms
   - file: 01_python_programing/06_python_external_sources
   - file: 01_python_programing/07_selenium_web_scraping
 
@@ -17,13 +16,9 @@ chapters:
   sections:
   - file: 02_mathematics/01_numpy_linear_algebra
   - file: 02_mathematics/02_sympy_calculus
-#   - file: 02-mathematics/numpy-probability
-#   - file: 02-mathematics/numpy-statistics
-#   - file: 02-mathematics/scipy-hypothesis-testing
-#   - file: 02-mathematics/numpy-applied-mathematics
-#     # title: "(w) NumPy: Applied Mathematics"
-#   - file: 02-mathematics/networkx-network-analysis
-#     title: "(w) NetworkX: Network Analysis"
+#   - file: 02_mathematics/03_numpy_probability
+#   - file: 02_mathematics/04_numpy_statistics
+#   - file: 02_mathematics/05_pingouin_hypo_test
 
 # - file: 03-data-manipulation/_intro
 #   sections:
