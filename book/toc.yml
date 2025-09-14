@@ -20,87 +20,73 @@ chapters:
 #   - file: 02_mathematics/04_numpy_statistics
 #   - file: 02_mathematics/05_pingouin_hypo_test
 
-# - file: 03-data-manipulation/_intro
+# - file: 03_data_manipulation/_intro
 #   sections:
-#   - file: 03-data-manipulation/numpy-arrays
-#   - file: 03-data-manipulation/pandas-data-exploratory
-#   - file: 03-data-manipulation/pandas-data-cleaning
-#   - file: 03-data-manipulation/pandas-data-transformation
-#   - file: 03-data-manipulation/janitor-pandas-extensions
+#   - file: 03_data_manipulation/01_numpy_arrays
+#   - file: 03_data_manipulation/02_pandas_data_exploratory
+#   - file: 03_data_manipulation/03_pandas_data_cleaning
+#   - file: 03_data_manipulation/04_pandas_data_transformation
+#   - file: 03_data_manipulation/05_janitor_pandas_extensions
 
-# # Big Data
-# - file: 04-big-data/_intro
+# - file: 04_big_data/_intro
 #   sections:
-#   - file: 04-big-data/hiveql-data-manipulation
-#   - file: 04-big-data/pyspark-data-exploratory
-#   - file: 04-big-data/pyspark-data-cleaning
-#   - file: 04-big-data/pyspark-data-transformation
-#   - file: 04-big-data/dask-parallelized-pandas
+#   - file: 04_big_data/01_hiveql_data_manipulation
+#   - file: 04_big_data/02_pyspark_data_exploratory
+#   - file: 04_big_data/03_pyspark_data_cleaning
+#   - file: 04_big_data/04_pyspark_data_transformation
+#   - file: 04_big_data/05_dask_parallelized_pandas
 
-# # Data Visualization
-# - file: 05-data-visualization/_intro
+# - file: 05_data_visualization/_intro
 #   sections:
-#   - file: 05-data-visualization/matplotlib-graph-construction
-#   - file: 05-data-visualization/seaborn-statistical-visualization
-#   - file: 05-data-visualization/plotly-interactive-visualization
+#   - file: 05_data_visualization/01_matplotlib_graph_construction
+#   - file: 05_data_visualization/02_seaborn_statistical_visualization
+#   - file: 05_data_visualization/03_plotly_interactive_visualization
 
-# # Machine Learning
-# - file: 06-machine-learning/_intro
+# - file: 06_machine_learning/_intro
 #   sections:
-#   - file: 06-machine-learning/sklearn-machine-learning
-#   - file: 06-machine-learning/sklearn-classification
-#   - file: 06-machine-learning/sklearn-regression
-#   - file: 06-machine-learning/sklearn-feature-engineering
-#   - file: 06-machine-learning/lenskit-recommendation
-#   - file: 06-machine-learning/pyspark-machine-learning
+#   - file: 06_machine_learning/01_sklearn_machine_learning
+#   - file: 06_machine_learning/02_sklearn_classification
+#   - file: 06_machine_learning/03_sklearn_regression
+#   - file: 06_machine_learning/04_sklearn_feature_engineering
+#   - file: 06_machine_learning/05_lenskit_recommendation
+#   - file: 06_machine_learning/06_pyspark_machine_learning
 
-# # Tabular Learning
-# - file: 07-tabular-learning/_intro
+# - file: 07_tabular_learning/_intro
 #   sections:
-#   - file: 07-tabular-learning/sklearn-ensemble-learning
-#   - file: 07-tabular-learning/xgboost-tree-boosting
-#   - file: 07-tabular-learning/ray-hyperparameter-optimization
-#   - file: 07-tabular-learning/shap-model-interpretation
-#   - file: 07-tabular-learning/imblearn-targeted-modeling
+#   - file: 07_tabular_learning/01_sklearn_ensemble_learning
+#   - file: 07_tabular_learning/02_xgboost_tree_boosting
+#   - file: 07_tabular_learning/03_ray_hyperparameter_optimization
+#   - file: 07_tabular_learning/04_shap_model_interpretation
+#   - file: 07_tabular_learning/05_imblearn_targeted_modeling
 
-# # Time Series
-# - file: 08-time-series/_intro
+# - file: 08_time_series/_intro
 #   sections:
-#   - file: 08-time-series/statsmodels-temporal-analysis
-#   - file: 08-time-series/prophet-forecasting-algorithms
-#   - file: 08-time-series/sktime-forecasting-pipeline
-#   - file: 08-time-series/darts-deep-forecasting
+#   - file: 08_time_series/01_statsmodels_temporal_analysis
+#   - file: 08_time_series/02_prophet_forecasting_algorithms
+#   - file: 08_time_series/03_sktime_forecasting_pipeline
+#   - file: 08_time_series/04_darts_deep_forecasting
 
 # # Unsupervised Learning
-# - file: 09-unsupervised-learning/_intro
+# - file: 09_unsupervised_learning/_intro
 #   sections:
-#   - file: 09-unsupervised-learning/mlxtend-association-rules
-#     title: "(w) MLxtend: Association Rules"
-#   - file: 09-unsupervised-learning/sklearn-clustering
-#   - file: 09-unsupervised-learning/sklearn-dimensional-reduction
-#   - file: 09-unsupervised-learning/pyod-anomaly-detection
+#   - file: 09_unsupervised_learning/01_sklearn_clustering
+#   - file: 09_unsupervised_learning/02_sklearn_dimensional_reduction
+#   - file: 09_unsupervised_learning/03_pyod_anomaly_detection
 
-# # Deep Learning
 # - file: 10-deep-learning/_intro
 #   sections:
 #   - file: 10-deep-learning/gensim-text-mining
-#   - file: 10-deep-learning/opencv-image-processing
-#     # title: "(w) OpenCV: Image Processing"
 #   - file: 10-deep-learning/numpy-gradient-descent
 #   - file: 10-deep-learning/keras-multilayer-perceptron
 #   - file: 10-deep-learning/keras-recurrent-networks
-#   - file: 10-deep-learning/keras-convolutional-networks
-#     # title: "(w) Keras: Convolutional Networks"
 #   - file: 10-deep-learning/pytorch-deep-learning
-#   - file: 10-deep-learning/transformers-transfer-learning
-#     # title: "(w) Transformers: Transfer Learning"
 
 # # R Programming
-# - file: 11-r-programing/_intro
+# - file: 11_r_programming/_intro
 #   sections:
-#   - file: 11-r-programing/r-basic-concepts
-#   - file: 11-r-programing/r-data-structures
-#   - file: 11-r-programing/tidyverse-data-wrangling
-#   - file: 11-r-programing/dplyr-data-cleaning
-#   - file: 11-r-programing/ggplot-data-visualization
-#   - file: 11-r-programing/r-statistics
+#   - file: 11_r_programming/01_r_basic_concepts
+#   - file: 11_r_programming/02_r_data_structures
+#   - file: 11_r_programming/03_tidyverse_data_wrangling
+#   - file: 11_r_programming/04_dplyr_data_cleaning
+#   - file: 11_r_programming/05_ggplot_data_visualization
+#   - file: 11_r_programming/06_r_statistics
