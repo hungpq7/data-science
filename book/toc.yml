@@ -2,14 +2,14 @@ format: jb-book
 root: book/home
 chapters:
 
-- file: 01_python_programing/_intro
+- file: 01_python_programming/_intro
   sections:
-  - file: 01_python_programing/01_python_basic_concepts
-  - file: 01_python_programing/02_python_data_types
-  - file: 01_python_programing/03_python_data_structures
-  - file: 01_python_programing/04_python_functions_objects
-  - file: 01_python_programing/06_python_external_sources
-  - file: 01_python_programing/07_selenium_web_scraping
+  - file: 01_python_programming/01_python_basic_concepts
+  - file: 01_python_programming/02_python_data_types
+  - file: 01_python_programming/03_python_data_structures
+  - file: 01_python_programming/04_python_functions_objects
+  - file: 01_python_programming/06_python_external_sources
+  - file: 01_python_programming/07_selenium_web_scraping
 
 # # Mathematics
 - file: 02_mathematics/_intro
