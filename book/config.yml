@@ -13,16 +13,11 @@ exclude_patterns: [
 execute:
   execute_notebooks: off
 
-repository:
-  url: https://github.com/hungpq7/data-science
-  branch: main
-
 html:
   favicon: book/image/favicon.ico
   use_issues_button: true
   use_repository_button: true
   use_download_button: true
-  # extra_css: book/custom.css
 
 sphinx:
   extra_extensions:
@@ -35,16 +30,15 @@ sphinx:
       - url_new_tab.js
     html_css_files:
       - ui_tweak.css
-    html_theme_options:
-      show_navbar_depth: 1
 
+repository:
+  url: https://github.com/hungpq7/data-science
+  branch: main
 launch_buttons:
-  notebook_interface: jupyterlab # classic
+  notebook_interface: jupyterlab
   binderhub_url: https://mybinder.org
-  jupyterhub_url: ""
   deepnote_url: https://deepnote.com
   colab_url: https://colab.research.google.com
-  thebe: true
 
 parse:
   myst_substitutions:

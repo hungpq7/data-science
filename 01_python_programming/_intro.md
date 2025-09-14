@@ -1,4 +1,4 @@
-# 1. Python Programing
+# 1. Python Programming
 
 :::{tableofcontents}
 :::
