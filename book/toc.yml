@@ -11,7 +11,6 @@ chapters:
   - file: 01_python_programming/06_python_external_sources
   - file: 01_python_programming/07_selenium_web_scraping
 
-# # Mathematics
 - file: 02_mathematics/_intro
   sections:
   - file: 02_mathematics/01_numpy_linear_algebra
@@ -75,11 +74,11 @@ chapters:
 
 # - file: 10-deep-learning/_intro
 #   sections:
-#   - file: 10-deep-learning/gensim-text-mining
-#   - file: 10-deep-learning/numpy-gradient-descent
-#   - file: 10-deep-learning/keras-multilayer-perceptron
-#   - file: 10-deep-learning/keras-recurrent-networks
-#   - file: 10-deep-learning/pytorch-deep-learning
+#   - file: 10-deep-learning/01_spacy_text_mining
+#   - file: 10-deep-learning/03_numpy_gradient_descent
+#   - file: 10-deep-learning/04_keras_multilayer_perceptron
+#   - file: 10-deep-learning/05_keras_recurrent_networks
+#   - file: 10-deep-learning/07_pytorch_deep_learning
 
 # - file: 11_r_programming/_intro
 #   sections:
@@ -89,3 +88,8 @@ chapters:
 #   - file: 11_r_programming/04_dplyr_data_cleaning
 #   - file: 11_r_programming/05_ggplot_data_visualization
 #   - file: 11_r_programming/06_r_statistics
+
+# - file: 11_r_programming/_intro
+#   sections:
+#   - file: 11_r_programming/01_r_basic_concepts
+#   - file: 11_r_programming/02_r_data_structures
