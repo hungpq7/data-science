@@ -1,0 +1,8 @@
+name: selenium
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - selenium
+  - webdriver-manager

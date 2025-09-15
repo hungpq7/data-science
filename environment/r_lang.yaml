@@ -1,6 +1,7 @@
 name: r-lang
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - r-base=4.3
   - r-irkernel

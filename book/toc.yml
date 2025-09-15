@@ -81,7 +81,6 @@ chapters:
 #   - file: 10-deep-learning/keras-recurrent-networks
 #   - file: 10-deep-learning/pytorch-deep-learning
 
-# # R Programming
 # - file: 11_r_programming/_intro
 #   sections:
 #   - file: 11_r_programming/01_r_basic_concepts

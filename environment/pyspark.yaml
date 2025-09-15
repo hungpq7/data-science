@@ -1,6 +1,7 @@
-name: pyspark4-nb
+name: pyspark
 channels:
   - conda-forge
+  - defaults
 dependencies:
   # Base Python
   - python=3.10
