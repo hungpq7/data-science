@@ -45,13 +45,13 @@ Using [MyST-NB](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell
 
 ## Image
 ```
-:::{image} ../image/chap-06/svm-hard.png
+:::{image} ../image/chap_06/svm_hard.png
 :height: 350px
 :align: center
 :::
 ```
 
-:::{image} ../image/chap-06/svm-hard.png
+:::{image} ../image/chap_06/svm_hard.png
 :height: 350px
 :align: center
 :::
