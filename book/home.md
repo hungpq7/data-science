@@ -56,14 +56,14 @@ Using [MyST-NB](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell
 :::
 
 ## Topic
-```
-:::{topic} TITLE
-CONTENT
+```txt
+:::{topic} Title
+Content
 :::
 ```
 
-:::{topic} TITLE
-CONTENT
+:::{topic} Title
+Content
 :::
 
 ## Callout
@@ -73,15 +73,31 @@ With [Sphinx](https://sphinx-book-theme.readthedocs.io/en/stable/reference/kitch
 - `attention` (orange)
 - `danger` (red)
 
-```
+:::::{tab-set}
+::::{tab-item} Note
+```txt
 :::{note}
 Attention is all you need.
 :::
 ```
-
-:::{tip}
+:::{note}
 Attention is all you need.
 :::
+::::
+
+::::{tab-item} Practice
+```txt
+:::{admonition} Practice
+:class: tip
+Attention is all you need.
+:::
+```
+:::{admonition} Practice
+:class: tip
+Attention is all you need.
+:::
+::::
+:::::
 
 ## Dropdown
 ```
@@ -96,7 +112,7 @@ Something hidden!
 
 ## Admonition
 General concept of image, dropdown, callout,...
-```
+```txt
 :::{admonition} Transformer
 :class: tip, toggle
 Attention is all you need.
