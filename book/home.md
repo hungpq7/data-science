@@ -5,8 +5,23 @@ title: Data Science with Python
 # Data Science
 A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
+Incoming topics:
+- Data Structure and Algorithms
+- Optimization
+- Network Analysis
+- Polars library
+- Bokeh library
+- FastAPI library
+- Association Rules
+- Image Processing
+- Convolutional Network
+- Transfer Learning
+- Streamlit and Gradio
+- Langchain and Langgraph
+- Statistics in R
+
 ## Local build
-```
+```bash
 rm -rf _build
 jb build . --config book/config.yml --toc book/toc.yml
 ```
@@ -56,7 +71,7 @@ Using [MyST-NB](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell
 :::
 
 ## Topic
-```txt
+```text
 :::{topic} Title
 Content
 :::
@@ -75,7 +90,7 @@ With [Sphinx](https://sphinx-book-theme.readthedocs.io/en/stable/reference/kitch
 
 :::::{tab-set}
 ::::{tab-item} Note
-```txt
+```text
 :::{note}
 Attention is all you need.
 :::
@@ -86,7 +101,7 @@ Attention is all you need.
 ::::
 
 ::::{tab-item} Practice
-```txt
+```text
 :::{admonition} Practice
 :class: tip
 Attention is all you need.
@@ -112,7 +127,7 @@ Something hidden!
 
 ## Admonition
 General concept of image, dropdown, callout,...
-```txt
+```text
 :::{admonition} Transformer
 :class: tip, toggle
 Attention is all you need.
