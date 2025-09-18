@@ -6,6 +6,7 @@ dependencies:
   - python=3.13
   - pip=25.2
   - ipykernel
+  - feature_engine
   - numpy=2.3.3
   - scipy=1.16.2
   - statsmodels=0.14.5

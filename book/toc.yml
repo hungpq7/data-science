@@ -19,13 +19,13 @@ chapters:
   - file: 02_mathematics/05_scipy_statistics
   - file: 02_mathematics/06_pingouin_hypo_test
 
-# - file: 03_data_manipulation/_intro
-#   sections:
-#   - file: 03_data_manipulation/01_numpy_arrays
-#   - file: 03_data_manipulation/02_pandas_data_exploratory
-#   - file: 03_data_manipulation/03_pandas_data_cleaning
-#   - file: 03_data_manipulation/04_pandas_data_transformation
-#   - file: 03_data_manipulation/05_janitor_pandas_extensions
+- file: 03_data_manipulation/_intro
+  sections:
+  - file: 03_data_manipulation/01_numpy_arrays
+  - file: 03_data_manipulation/02_pandas_data_exploratory
+  - file: 03_data_manipulation/03_pandas_data_cleaning
+  - file: 03_data_manipulation/04_pandas_data_transformation
+  - file: 03_data_manipulation/05_janitor_pandas_extensions
 
 # - file: 04_big_data/_intro
 #   sections:
