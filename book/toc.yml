@@ -27,13 +27,13 @@ chapters:
   - file: 03_data_manipulation/04_pandas_data_transformation
   - file: 03_data_manipulation/05_janitor_pandas_extensions
 
-# - file: 04_big_data/_intro
-#   sections:
-#   - file: 04_big_data/01_hiveql_data_manipulation
-#   - file: 04_big_data/02_pyspark_data_exploratory
-#   - file: 04_big_data/03_pyspark_data_cleaning
-#   - file: 04_big_data/04_pyspark_data_transformation
-#   - file: 04_big_data/05_dask_parallelized_pandas
+- file: 04_big_data/_intro
+  sections:
+  - file: 04_big_data/01_hiveql_data_manipulation
+  - file: 04_big_data/02_pyspark_data_exploratory
+  - file: 04_big_data/03_pyspark_data_cleaning
+  - file: 04_big_data/04_pyspark_data_transformation
+  - file: 04_big_data/05_dask_parallelized_pandas
 
 # - file: 05_data_visualization/_intro
 #   sections:

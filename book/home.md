@@ -5,20 +5,6 @@ title: Data Science with Python
 # Data Science
 A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
-Incoming topics:
-- Data Structure and Algorithms
-- Optimization
-- Network Analysis
-- Polars library
-- Bokeh library
-- FastAPI library
-- Association Rules
-- Image Processing
-- Convolutional Network
-- Transfer Learning
-- Streamlit and Gradio
-- Langchain and Langgraph
-- Statistics in R
 
 ## Local build
 ```bash
@@ -184,17 +170,80 @@ With [Mermaid](https://mermaid.js.org/)
 ```
 :::{mermaid}
 :align: center
-sequenceDiagram
-    Alice ->> John: Hello John, how are you?
-    John -->> Alice: Great!
-    Alice -) John: See you later!
+flowchart TB
+  SGD(((SGD)))
+  Momentum(Momentum)
+  AdaGrad(AdaGrad)
+  Nesterov(Nesterov)
+  RMSProp(RMSProp)
+  AdaDelta(AdaDelta)
+  Adam(((Adam)))
+  Nadam(Nadam)
+  AMSGrad(AMSGrad)
+  AdaMax(AdaMax)
+  AdamW(AdamW)
+
+  SGD -- adaptive<br>gradient --> Momentum
+  SGD -- adaptive<br>learning rate --> AdaGrad
+
+  Momentum --> Nesterov
+  Momentum --> Adam
+  Nesterov --> Nadam
+
+  AdaGrad --> RMSProp
+  AdaGrad --> AdaDelta
+  RMSProp --> Adam
+
+  Adam --> Nadam
+  Adam --> AMSGrad
+  Adam --> AdaMax
+  Adam --> AdamW
 :::
 ```
 
 :::{mermaid}
 :align: center
-sequenceDiagram
-    Alice ->> John: Hello John, how are you?
-    John -->> Alice: Great!
-    Alice -) John: See you later!
+flowchart TB
+  SGD(((SGD)))
+  Momentum(Momentum)
+  AdaGrad(AdaGrad)
+  Nesterov(Nesterov)
+  RMSProp(RMSProp)
+  AdaDelta(AdaDelta)
+  Adam(((Adam)))
+  Nadam(Nadam)
+  AMSGrad(AMSGrad)
+  AdaMax(AdaMax)
+  AdamW(AdamW)
+
+  SGD -- adaptive<br>gradient --> Momentum
+  SGD -- adaptive<br>learning rate --> AdaGrad
+
+  Momentum --> Nesterov
+  Momentum --> Adam
+  Nesterov --> Nadam
+
+  AdaGrad --> RMSProp
+  AdaGrad --> AdaDelta
+  RMSProp --> Adam
+
+  Adam --> Nadam
+  Adam --> AMSGrad
+  Adam --> AdaMax
+  Adam --> AdamW
 :::
+
+Incoming topics:
+- Data Structure and Algorithms
+- Optimization
+- Network Analysis
+- Polars library
+- Bokeh library
+- FastAPI library
+- Association Rules
+- Image Processing
+- Convolutional Network
+- Transfer Learning
+- Streamlit and Gradio
+- Langchain and Langgraph
+- Statistics in R
