@@ -35,11 +35,11 @@ chapters:
   - file: 04_big_data/04_pyspark_data_transformation
   - file: 04_big_data/05_dask_parallelized_pandas
 
-# - file: 05_data_visualization/_intro
-#   sections:
-#   - file: 05_data_visualization/01_matplotlib_graph_construction
-#   - file: 05_data_visualization/02_seaborn_statistical_visualization
-#   - file: 05_data_visualization/03_plotly_interactive_visualization
+- file: 05_data_visualization/_intro
+  sections:
+  - file: 05_data_visualization/01_matplotlib_graph_construction
+  - file: 05_data_visualization/02_seaborn_statistical_visualization
+  - file: 05_data_visualization/03_plotly_interactive_visualization
 
 # - file: 06_machine_learning/_intro
 #   sections:
