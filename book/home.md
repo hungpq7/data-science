@@ -45,14 +45,14 @@ Using [MyST-NB](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell
 
 ## Image
 ```
-:::{image} ../image/chap_06/svm_hard.png
-:height: 350px
+:::{image} ../image/chap_05/matplotlib_color_names.png
+:height: 600px
 :align: center
 :::
 ```
 
-:::{image} ../image/chap_06/svm_hard.png
-:height: 350px
+:::{image} ../image/chap_05/matplotlib_color_names.png
+:height: 600px
 :align: center
 :::
 
@@ -247,3 +247,4 @@ Incoming topics:
 - Streamlit and Gradio
 - Langchain and Langgraph
 - Statistics in R
+

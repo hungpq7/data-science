@@ -41,10 +41,10 @@ chapters:
   - file: 05_data_visualization/02_seaborn_statistical_visualization
   - file: 05_data_visualization/03_plotly_interactive_visualization
 
-# - file: 06_machine_learning/_intro
-#   sections:
-#   - file: 06_machine_learning/01_sklearn_machine_learning
-#   - file: 06_machine_learning/02_sklearn_classification
+- file: 06_machine_learning/_intro
+  sections:
+  - file: 06_machine_learning/01_sklearn_machine_learning
+  - file: 06_machine_learning/02_sklearn_classification
 #   - file: 06_machine_learning/03_sklearn_regression
 #   - file: 06_machine_learning/04_sklearn_feature_engineering
 #   - file: 06_machine_learning/05_lenskit_recommendation
