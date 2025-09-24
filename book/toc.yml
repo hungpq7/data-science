@@ -45,10 +45,10 @@ chapters:
   sections:
   - file: 06_machine_learning/01_sklearn_machine_learning
   - file: 06_machine_learning/02_sklearn_classification
-#   - file: 06_machine_learning/03_sklearn_regression
-#   - file: 06_machine_learning/04_sklearn_feature_engineering
-#   - file: 06_machine_learning/05_lenskit_recommendation
-#   - file: 06_machine_learning/06_pyspark_machine_learning
+  - file: 06_machine_learning/03_sklearn_regression
+  - file: 06_machine_learning/04_sklearn_feature_engineering
+  - file: 06_machine_learning/05_lenskit_recommendation
+  - file: 06_machine_learning/06_pyspark_machine_learning
 
 # - file: 07_tabular_learning/_intro
 #   sections:
