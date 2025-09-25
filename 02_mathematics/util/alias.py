@@ -4,24 +4,29 @@ warnings.filterwarnings('ignore')
 import importlib
 
 _lazy = dict(
-    os = "os",
-    sys = "sys",
-    re = "re",
-    dt = "datetime",
-    du = "dateutil.relativedelta",
+    os = 'os',
+    sys = 'sys',
+    re = 're',
+    dt = 'datetime',
+    du = 'dateutil.relativedelta',
 
-    np = "numpy",
-    pd = "pandas",
-    stats = "scipy.stats",
-    linalg = "scipy.linalg",
-    optimize = "scipy.optimize",
-    sym = "sympy",
-    plt = "matplotlib.pyplot",
-    sns = "seaborn",
-    nx = "networkx",
-    skl = "sklearn",
+    np = 'numpy',
+    pd = 'pandas',
+    stats = 'scipy.stats',
+    linalg = 'scipy.linalg',
+    optimize = 'scipy.optimize',
+    pg = 'pingouin',
+    sym = 'sympy',
+    mpl = 'matplotlib',
+    plt = 'matplotlib.pyplot',
+    sns = 'seaborn',
+    px = 'plotly.express',
+    nx = 'networkx',
+    skl = 'sklearn',
+    metrics = 'sklearn.metrics',
+    pl = 'polars',
+    fe = 'feature_engine',
 )
-
 
 def lazy_getattr(name):
     if name in _lazy:

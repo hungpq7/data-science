@@ -1,0 +1,109 @@
+# Classification
+LinearClassifier: sklearn.linear_model.LogisticRegression
+GaussianProcessClassifier: sklearn.gaussian_process.GaussianProcessClassifier
+KNNClassifier: sklearn.neighbors.KNeighborsClassifier
+SVMClassifier: sklearn.svm.SVC
+DecisionTreeClassifier: sklearn.tree.DecisionTreeClassifier
+RandomForestClassifier: sklearn.ensemble.RandomForestClassifier
+ExtraTreesClassifier: sklearn.ensemble.ExtraTreesClassifier
+AdaBoostClassifier: sklearn.ensemble.AdaBoostClassifier
+GBMClassifier: sklearn.ensemble.HistGradientBoostingClassifier
+XGBoostClassifier: xgboost.XGBClassifier
+LightGBMClassifier: lightgbm.LGBMClassifier
+CatBoostClassifier: catboost.CatBoostClassifier
+
+# Regression
+LinearRegressor: sklearn.linear_model.ElasticNet
+GaussianProcessRegressor: sklearn.gaussian_process.GaussianProcessRegressor
+KNKRegressor: sklearn.neighbors.KNeighborsRegressor
+SVMRegressor: sklearn.svm.SVR
+DecisionTreeRegressor: sklearn.tree.DecisionTreeRegressor
+RandomForestRegressor: sklearn.ensemble.RandomForestRegressor
+ExtraTreesRegressor: sklearn.ensemble.ExtraTreesRegressor
+AdaBoostRegressor: sklearn.ensemble.AdaBoostRegressor
+GBMRegressor: sklearn.ensemble.HistGradientBoostingRegressor
+XGBoostRegressor: xgboost.XGBRegressor
+LightGBMRegressor: lightgbm.LGBMRegressor
+CatBoostRegressor: catboost.CatBoostRegressor
+
+# Ensemble Meta-Estimators
+VotingClassifier: sklearn.ensemble.VotingClassifier
+VotingRegressor: sklearn.ensemble.VotingRegressor
+BaggingClassifier: sklearn.ensemble.BaggingClassifier
+BaggingRegressor: sklearn.ensemble.BaggingRegressor
+StackingClassifier: sklearn.ensemble.StackingClassifier
+StackingRegressor: sklearn.ensemble.StackingRegressor
+
+# Clustering
+KMeansClustering: sklearn.cluster.MiniBatchKMeans
+MeanShiftClustering: sklearn.cluster.MeanShift
+DBSCANClustering: sklearn.cluster.DBSCAN
+OPTICSClustering: sklearn.cluster.OPTICS
+HierarchicalClustering: sklearn.cluster.AgglomerativeClustering
+GaussianMixtureClustering: sklearn.mixture.GaussianMixture
+
+# Anomaly Detection
+WinsorizerDetector: feature_engine.outliers.Winsorizer
+IsolationForestDetector: pyod.models.iforest.IForest
+KNNDetector: pyod.models.knn.KNN
+LOFDetector: pyod.models.lof.LOF
+EmpiricalCDFDetector: pyod.models.ecod.ECOD
+CopulaBasedDetector: pyod.models.copod.COPOD
+
+# Dimensionality Reduction
+PCAEmbedding: sklearn.decomposition.IncrementalPCA
+TSNEEmbedding: sklearn.manifold.TSNE
+LDAEmbedding: sklearn.discriminant_analysis.LinearDiscriminantAnalysis
+UMAPEmbedding: umap.UMAP
+
+# Feature Selection
+VariableSelector: feature_engine.selection.DropConstantFeatures
+DuplicationSelector: feature_engine.selection.DropDuplicateFeatures
+CorrelationSelector: feature_engine.selection.SmartCorrelatedSelection
+TargetScoringSelector: sklearn.feature_selection.GenericUnivariateSelect
+SequentialFeatureSelector: sklearn.feature_selection.SequentialFeatureSelector
+RankedEliminationSelector: sklearn.feature_selection.RFECV
+ShuffleSelector: feature_engine.selection.SelectByShuffling
+
+# Model Selection & Validation
+GridSearchCV: sklearn.model_selection.GridSearchCV
+RandomSearchCV: sklearn.model_selection.RandomizedSearchCV
+train_test_split: sklearn.model_selection.train_test_split
+cross_val_score: sklearn.model_selection.cross_val_score
+
+# Pipelines & Wrappers
+Pipeline: sklearn.pipeline.Pipeline
+make_pipeline: sklearn.pipeline.make_pipeline
+ColumnTransformer: sklearn.compose.ColumnTransformer
+TransformerWrapper: feature_engine.wrappers.SklearnTransformerWrapper
+DataFrameMapper: sklearn_pandas.DataFrameMapper
+
+# Imputation
+SimpleImputer: sklearn.impute.SimpleImputer
+MeanMedianImputer: feature_engine.imputation.MeanMedianImputer
+ArbitraryNumberImputer: feature_engine.imputation.ArbitraryNumberImputer
+KNNImputer: sklearn.impute.KNNImputer
+
+# Scaling
+MinMaxScaler: sklearn.preprocessing.MinMaxScaler
+NormalizeScaler: sklearn.preprocessing.Normalizer
+StandardScaler: sklearn.preprocessing.StandardScaler
+RobustScaler: sklearn.preprocessing.RobustScaler
+
+# Encoding
+RareLabelEncoder: feature_engine.encoding.RareLabelEncoder
+OneHotEncoder: category_encoders.OneHotEncoder
+OrdinalEncoder: category_encoders.OrdinalEncoder
+TargetEncoder: category_encoders.TargetEncoder
+MEstimateEncoder: category_encoders.MEstimateEncoder
+LeaveOneOutEncoder: category_encoders.LeaveOneOutEncoder
+WOEEncoder: category_encoders.WOEEncoder
+HelmertEncoder: category_encoders.HelmertEncoder
+CountEncoder: category_encoders.CountEncoder
+
+# Transformation
+FunctionTransformer: sklearn.preprocessing.FunctionTransformer
+LogTransformer: feature_engine.transformation.LogCpTransformer
+PowerTransformer: feature_engine.transformation.PowerTransformer
+BoxCoxTransformer: feature_engine.transformation.BoxCoxTransformer
+YeoJohnsonTransformer: feature_engine.transformation.YeoJohnsonTransformer
