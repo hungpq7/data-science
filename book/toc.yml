@@ -53,7 +53,7 @@ chapters:
 - file: 07_tabular_prediction/_intro
   sections:
   - file: 07_tabular_prediction/01_sklearn_ensemble_learning
-#   - file: 07_tabular_prediction/02_xgboost_tree_boosting
+  - file: 07_tabular_prediction/02_xgboost_tree_boosting
 #   - file: 07_tabular_prediction/03_ray_hyperparameter_optimization
 #   - file: 07_tabular_prediction/04_shap_model_interpretation
 #   - file: 07_tabular_prediction/05_imblearn_targeted_modeling
