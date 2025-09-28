@@ -58,12 +58,12 @@ chapters:
   - file: 07_tabular_prediction/04_shap_model_interpretation
   - file: 07_tabular_prediction/05_imblearn_targeted_modeling
 
-# - file: 08_time_series/_intro
-#   sections:
-#   - file: 08_time_series/01_statsmodels_temporal_analysis
-#   - file: 08_time_series/02_prophet_forecasting_algorithms
-#   - file: 08_time_series/03_sktime_forecasting_pipeline
-#   - file: 08_time_series/04_darts_deep_forecasting
+- file: 08_time_series/_intro
+  sections:
+  - file: 08_time_series/01_statsmodels_temporal_analysis
+  - file: 08_time_series/02_prophet_forecasting_algorithms
+  - file: 08_time_series/03_sktime_forecasting_pipeline
+  - file: 08_time_series/04_darts_deep_forecasting
 
 # # Unsupervised Learning
 # - file: 09_unsupervised_learning/_intro
