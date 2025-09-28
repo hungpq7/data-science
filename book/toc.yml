@@ -65,10 +65,9 @@ chapters:
   - file: 08_time_series/03_sktime_forecasting_pipeline
   - file: 08_time_series/04_darts_deep_forecasting
 
-# # Unsupervised Learning
-# - file: 09_unsupervised_learning/_intro
-#   sections:
-#   - file: 09_unsupervised_learning/01_sklearn_clustering
+- file: 09_unsupervised_learning/_intro
+  sections:
+  - file: 09_unsupervised_learning/01_sklearn_clustering
 #   - file: 09_unsupervised_learning/02_sklearn_dimensional_reduction
 #   - file: 09_unsupervised_learning/03_pyod_anomaly_detection
 

@@ -81,7 +81,7 @@ DataFrameMapper: sklearn_pandas.DataFrameMapper
 # Imputation
 SimpleImputer: sklearn.impute.SimpleImputer
 MeanMedianImputer: feature_engine.imputation.MeanMedianImputer
-ArbitraryNumberImputer: feature_engine.imputation.ArbitraryNumberImputer
+ArbitraryImputer: feature_engine.imputation.ArbitraryNumberImputer
 KNNImputer: sklearn.impute.KNNImputer
 
 # Scaling
