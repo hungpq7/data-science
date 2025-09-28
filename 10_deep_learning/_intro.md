@@ -1,4 +1,4 @@
-# 10. Deep Learning
+# **10. Deep Learning**
 
 :::{tableofcontents}
 :::

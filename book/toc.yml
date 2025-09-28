@@ -68,27 +68,27 @@ chapters:
 - file: 09_unsupervised_learning/_intro
   sections:
   - file: 09_unsupervised_learning/01_sklearn_clustering
-#   - file: 09_unsupervised_learning/02_sklearn_dimensional_reduction
-#   - file: 09_unsupervised_learning/03_pyod_anomaly_detection
+  - file: 09_unsupervised_learning/02_sklearn_dimensional_reduction
+  - file: 09_unsupervised_learning/03_pyod_anomaly_detection
 
-# - file: 10-deep-learning/_intro
-#   sections:
-#   - file: 10-deep-learning/01_spacy_text_mining
-#   - file: 10-deep-learning/03_numpy_gradient_descent
-#   - file: 10-deep-learning/04_keras_multilayer_perceptron
-#   - file: 10-deep-learning/05_keras_recurrent_networks
-#   - file: 10-deep-learning/07_pytorch_deep_learning
+- file: 10-deep-learning/_intro
+  sections:
+  - file: 10-deep-learning/01_spacy_text_mining
+  - file: 10-deep-learning/03_numpy_gradient_descent
+  - file: 10-deep-learning/04_keras_multilayer_perceptron
+  - file: 10-deep-learning/05_keras_recurrent_networks
+  - file: 10-deep-learning/07_pytorch_deep_learning
 
-# - file: 11_r_programming/_intro
-#   sections:
-#   - file: 11_r_programming/01_r_basic_concepts
-#   - file: 11_r_programming/02_r_data_structures
-#   - file: 11_r_programming/03_tidyverse_data_wrangling
-#   - file: 11_r_programming/04_dplyr_data_cleaning
-#   - file: 11_r_programming/05_ggplot_data_visualization
-#   - file: 11_r_programming/06_r_statistics
+- file: 11_r_programming/_intro
+  sections:
+  - file: 11_r_programming/01_r_basic_concepts
+  - file: 11_r_programming/02_r_data_structures
+  - file: 11_r_programming/03_tidyverse_data_wrangling
+  - file: 11_r_programming/04_dplyr_data_cleaning
+  - file: 11_r_programming/05_ggplot_data_visualization
+  - file: 11_r_programming/06_r_statistics
 
-# - file: 11_r_programming/_intro
-#   sections:
-#   - file: 11_r_programming/01_r_basic_concepts
-#   - file: 11_r_programming/02_r_data_structures
+- file: 11_r_programming/_intro
+  sections:
+  - file: 11_r_programming/01_r_basic_concepts
+  - file: 11_r_programming/02_r_data_structures

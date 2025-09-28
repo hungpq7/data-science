@@ -1,4 +1,4 @@
-# 12. Scientific Interface
+# **12. Scientific Interface**
 
 :::{tableofcontents}
 :::
