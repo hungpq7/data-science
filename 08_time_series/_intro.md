@@ -1,4 +1,4 @@
-# 8. Time Series
+# **8. Time Series**
 
 :::{tableofcontents}
 :::

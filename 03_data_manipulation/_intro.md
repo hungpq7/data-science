@@ -1,4 +1,4 @@
-# 3. Data Manipulation
+# **3. Data Manipulation**
 
 :::{tableofcontents}
 :::

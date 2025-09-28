@@ -1,4 +1,4 @@
-# 9. Unsupervised Learning
+# **9. Unsupervised Learning**
 
 :::{tableofcontents}
 :::

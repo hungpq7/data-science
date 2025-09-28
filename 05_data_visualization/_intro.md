@@ -1,4 +1,4 @@
-# 5. Data Visualization
+# **5. Data Visualization**
 
 :::{tableofcontents}
 :::

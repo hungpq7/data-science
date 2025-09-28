@@ -1,4 +1,4 @@
-# 7. Tabular Prediction
+# **7. Tabular Prediction**
 
 :::{tableofcontents}
 :::
