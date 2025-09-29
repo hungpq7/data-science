@@ -23,6 +23,7 @@ sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
   config:
+    suppress_warnings: ["mystnb.unknown_mime_type"]
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     html_static_path: book/static
     html_js_files:
