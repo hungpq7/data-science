@@ -7,7 +7,7 @@ from pathlib import Path
 
 from . import ml
 
-with Path(__file__).with_name('ds_alias.yaml').open('r', encoding='utf-8') as f:
+with Path(__file__).with_name('alias/ds_module.yaml').open('r', encoding='utf-8') as f:
     _lazy = yaml.safe_load(f)
 
 def __getattr__(name):
