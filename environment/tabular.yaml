@@ -7,23 +7,46 @@ dependencies:
   - pip
   - ipykernel
   - pyyaml
-  - feature_engine
+  - joblib
+
   - numpy
   - scipy
-  - statsmodels
+  - networkx
+  - sympy
   - pingouin
+  - statsmodels
+
   - pandas
   - pyjanitor
-  - sympy
-  - networkx
+  - duckdb
+  - polars
+
   - matplotlib
   - seaborn
   - plotly
+  - dtreeviz
+  - bokeh
+  - hvplot
+
   - scikit-learn
+  - feature_engine
+  - category_encoders
+  - imbalanced-learn
+  - sklearn-pandas
   - xgboost
   - lightgbm
   - catboost
-  - dtreeviz
+  - optuna
+  - shap
+  - autogluon
+  
+  - pyod
+  - umap-learn
+  - mlxtend
+  - lifelines
+  - sktime
+  - darts
+  - skforecast
 
   # - python=3.13
   # - pip=25.2
