@@ -38,15 +38,17 @@ dependencies:
   - catboost
   - optuna
   - shap
-  - autogluon
   
   - pyod
   - umap-learn
   - mlxtend
   - lifelines
-  - sktime
-  - darts
-  - skforecast
+
+  # - transformers
+  # - gradio
+
+  # - pip:
+  #   - torch
 
   # - python=3.13
   # - pip=25.2

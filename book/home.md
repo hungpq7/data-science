@@ -37,10 +37,10 @@ Using [MyST-NB](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell
 ```json
     "mystnb": {
      "image": {
-      "align": "center",
-      "scale": "70%"
+      "scale": "80%",
+      "align": "center"
      }
-    },
+    }
 ```
 
 ## Image

@@ -15,9 +15,11 @@ execute:
 
 html:
   favicon: book/image/favicon.ico
-  use_issues_button: true
   use_repository_button: true
   use_download_button: true
+repository:
+  url: https://github.com/hungpq7/data-science
+  branch: main
 
 sphinx:
   extra_extensions:
@@ -31,10 +33,9 @@ sphinx:
       - url_new_tab.js
     html_css_files:
       - ui_tweak.css
+    nb_render_image_options:
+      align: center
 
-repository:
-  url: https://github.com/hungpq7/data-science
-  branch: main
 launch_buttons:
   notebook_interface: jupyterlab
   binderhub_url: https://mybinder.org
