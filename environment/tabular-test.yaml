@@ -1,0 +1,47 @@
+name: tabular-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel
+  - pyyaml
+  - joblib
+
+  - numpy
+  - scipy
+  - networkx
+  - sympy
+  - pingouin
+  - statsmodels
+
+  - pandas
+  - pyjanitor
+  - duckdb
+  - polars
+
+  - matplotlib
+  - seaborn
+  - plotly
+  - dtreeviz
+  - bokeh
+  - hvplot
+
+  - scikit-learn
+  - feature_engine
+  - category_encoders
+  - imbalanced-learn
+  - sklearn-pandas
+  - xgboost
+  - lightgbm
+  - catboost
+  - optuna
+  - shap
+  
+  - pyod
+  - umap-learn
+  - mlxtend
+  - lifelines
+
+  - transformers

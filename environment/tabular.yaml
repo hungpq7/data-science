@@ -3,68 +3,43 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.13
+  - python=3.12
   - pip
-  - ipykernel
-  - pyyaml
-  - joblib
+  - ipykernel=6.30.1
+  - pyyaml=6.0.3
+  - joblib=1.5.2
 
-  - numpy
-  - scipy
-  - networkx
-  - sympy
-  - pingouin
-  - statsmodels
+  - numpy=2.3.3
+  - scipy=1.16.2
+  - networkx=3.5
+  - sympy=1.14.0
+  - pingouin=0.5.5
+  - statsmodels=0.14.5
 
-  - pandas
-  - pyjanitor
-  - duckdb
-  - polars
+  - pandas=2.3.3
+  - pyjanitor=0.31.0
+  - duckdb=1.4.1
+  - polars=1.34.0
 
-  - matplotlib
-  - seaborn
-  - plotly
-  - dtreeviz
-  - bokeh
-  - hvplot
+  - matplotlib=3.10.6
+  - seaborn=0.13.2
+  - plotly=6.3.1
+  - dtreeviz=2.2.2
+  - bokeh=3.8.0
+  - hvplot=0.12.1
 
-  - scikit-learn
-  - feature_engine
-  - category_encoders
-  - imbalanced-learn
-  - sklearn-pandas
-  - xgboost
-  - lightgbm
-  - catboost
-  - optuna
-  - shap
+  - scikit-learn=1.7.2
+  - feature_engine=1.9.3
+  - category_encoders=2.8.1
+  - imbalanced-learn=0.14.0
+  - sklearn-pandas=2.2.0
+  - xgboost=3.0.5
+  - lightgbm=4.6.0
+  - catboost=1.2.8
+  - optuna=4.5.0
+  - shap=0.48.0
   
-  - pyod
-  - umap-learn
-  - mlxtend
-  - lifelines
-
-  # - transformers
-  # - gradio
-
-  # - pip:
-  #   - torch
-
-  # - python=3.13
-  # - pip=25.2
-  # - feature_engine
-  # - numpy=2.3.3
-  # - scipy=1.16.2
-  # - statsmodels=0.14.5
-  # - pingouin=0.5.5
-  # - pandas=2.3.2
-  # - pyjanitor=0.31.0
-  # - sympy=1.14.0
-  # - networkx=3.5
-  # - matplotlib=3.10.6
-  # - seaborn=0.13.2
-  # - plotly=6.3.0
-  # - scikit-learn=1.7.2
-  # - xgboost=3.0.5
-  # - lightgbm=4.6.0
-  # - catboost=1.2.8
+  - pyod=2.0.5
+  - umap-learn=0.5.9.post2
+  - mlxtend=0.23.4
+  - lifelines=0.30.0
