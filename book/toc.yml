@@ -2,92 +2,94 @@ format: jb-book
 root: book/home
 chapters:
 
-- file: 01_python_programming/_intro
+# document.documentElement.scrollHeight
+
+- file: 01_python_programming/_intro # 0.8
   sections:
-  - file: 01_python_programming/01_python_basic_concepts
-  - file: 01_python_programming/02_python_data_types
-  - file: 01_python_programming/03_python_data_structures
-  - file: 01_python_programming/04_python_functions_objects
-  - file: 01_python_programming/06_python_external_sources
-  - file: 01_python_programming/07_selenium_web_scraping
+  - file: 01_python_programming/01_python_basic_concepts    # 9.3
+  - file: 01_python_programming/02_python_data_types        # 19.6
+  - file: 01_python_programming/03_python_data_structures   # 13.7
+  - file: 01_python_programming/04_python_functions_objects # 14.3
+  - file: 01_python_programming/06_python_external_sources  # 9.0
+  - file: 01_python_programming/07_selenium_web_scraping    # 12.3
 
 - file: 02_mathematics/_intro
   sections:
-  - file: 02_mathematics/01_numpy_linear_algebra
-  - file: 02_mathematics/02_sympy_calculus
-  - file: 02_mathematics/04_pytorch_gradient_descent
-  - file: 02_mathematics/05_scipy_probability
-  - file: 02_mathematics/06_scipy_statistics
-  - file: 02_mathematics/07_pingouin_hypo_test
+  - file: 02_mathematics/01_numpy_linear_algebra     # 20.1
+  - file: 02_mathematics/02_sympy_calculus           # 15.4
+  - file: 02_mathematics/04_pytorch_gradient_descent # 17.6
+  - file: 02_mathematics/05_scipy_probability        # 17.6
+  - file: 02_mathematics/06_scipy_statistics         # 12.1
+  - file: 02_mathematics/07_pingouin_hypo_test       # 13.0
 
 - file: 03_data_manipulation/_intro
   sections:
-  - file: 03_data_manipulation/01_numpy_arrays
-  - file: 03_data_manipulation/02_pandas_data_exploratory
-  - file: 03_data_manipulation/03_pandas_data_cleaning
-  - file: 03_data_manipulation/04_pandas_data_transformation
-  - file: 03_data_manipulation/05_janitor_pandas_extensions
+  - file: 03_data_manipulation/01_numpy_arrays               # 18.4
+  - file: 03_data_manipulation/02_pandas_data_exploratory    # 16.5
+  - file: 03_data_manipulation/03_pandas_data_cleaning       # 15.1
+  - file: 03_data_manipulation/04_pandas_data_transformation # 9.2
+  - file: 03_data_manipulation/05_janitor_pandas_extensions  # 14.8
 
 - file: 04_big_data/_intro
   sections:
-  - file: 04_big_data/01_hiveql_data_manipulation
-  - file: 04_big_data/02_pyspark_data_exploratory
-  - file: 04_big_data/03_pyspark_data_cleaning
-  - file: 04_big_data/04_pyspark_data_transformation
-  - file: 04_big_data/05_dask_parallelized_pandas
+  - file: 04_big_data/01_hiveql_data_manipulation    # 26.2
+  - file: 04_big_data/02_pyspark_data_exploratory    # 12.4
+  - file: 04_big_data/03_pyspark_data_cleaning       # 13.7
+  - file: 04_big_data/04_pyspark_data_transformation # 18.3
+  - file: 04_big_data/05_dask_parallelized_pandas    # 10.3
 
 - file: 05_data_visualization/_intro
   sections:
-  - file: 05_data_visualization/01_matplotlib_graph_construction
-  - file: 05_data_visualization/02_seaborn_statistical_visualization
-  - file: 05_data_visualization/03_plotly_interactive_visualization
+  - file: 05_data_visualization/01_matplotlib_graph_construction     # 23.0
+  - file: 05_data_visualization/02_seaborn_statistical_visualization # 26.6
+  - file: 05_data_visualization/03_plotly_interactive_visualization  # 27.4
 
 - file: 06_machine_learning/_intro
   sections:
-  - file: 06_machine_learning/01_sklearn_machine_learning
-  - file: 06_machine_learning/02_sklearn_classification
-  - file: 06_machine_learning/03_sklearn_regression
-  - file: 06_machine_learning/04_sklearn_feature_engineering
-  - file: 06_machine_learning/05_lenskit_recommendation
-  - file: 06_machine_learning/06_pyspark_machine_learning
+  - file: 06_machine_learning/01_sklearn_machine_learning    # 16.1
+  - file: 06_machine_learning/02_sklearn_classification      # 16.9
+  - file: 06_machine_learning/03_sklearn_regression          # 15.3
+  - file: 06_machine_learning/04_sklearn_feature_engineering # 24.3
+  - file: 06_machine_learning/05_lenskit_recommendation      # 23.1
+  - file: 06_machine_learning/06_pyspark_machine_learning    # 17.0
 
 - file: 07_tabular_prediction/_intro
   sections:
-  - file: 07_tabular_prediction/01_sklearn_ensemble_learning
-  - file: 07_tabular_prediction/02_xgboost_tree_boosting
-  - file: 07_tabular_prediction/03_optuna_hyperparameter_optimization
-  - file: 07_tabular_prediction/04_shap_model_interpretation
-  - file: 07_tabular_prediction/05_imblearn_targeted_modeling
+  - file: 07_tabular_prediction/01_sklearn_ensemble_learning          # 11.8
+  - file: 07_tabular_prediction/02_xgboost_tree_boosting              # 25.5
+  - file: 07_tabular_prediction/03_optuna_hyperparameter_optimization # 23.2
+  - file: 07_tabular_prediction/04_shap_model_interpretation          # 15.3
+  - file: 07_tabular_prediction/05_imblearn_targeted_modeling         # 15.1
 
 - file: 08_time_series/_intro
   sections:
-  - file: 08_time_series/01_statsmodels_temporal_analysis
-  - file: 08_time_series/02_prophet_forecasting_algorithms
-  - file: 08_time_series/03_sktime_forecasting_pipeline
-  - file: 08_time_series/04_darts_deep_forecasting
+  - file: 08_time_series/01_statsmodels_temporal_analysis  # 19.1
+  - file: 08_time_series/02_prophet_forecasting_algorithms # 19.6
+  - file: 08_time_series/03_sktime_forecasting_pipeline    # 21.4
+  - file: 08_time_series/04_darts_deep_forecasting         # 14.9
 
 - file: 09_unsupervised_learning/_intro
   sections:
-  - file: 09_unsupervised_learning/01_sklearn_clustering
-  - file: 09_unsupervised_learning/02_sklearn_dimensional_reduction
-  - file: 09_unsupervised_learning/03_pyod_anomaly_detection
+  - file: 09_unsupervised_learning/01_sklearn_clustering            # 15.2
+  - file: 09_unsupervised_learning/02_sklearn_dimensional_reduction # 19.2
+  - file: 09_unsupervised_learning/03_pyod_anomaly_detection        # 12.9
 
 - file: 10_deep_learning/_intro
   sections:
-  - file: 10_deep_learning/01_spacy_text_mining
-  - file: 10_deep_learning/03_numpy_gradient_descent
-  - file: 10_deep_learning/04_keras_multilayer_perceptron
-  - file: 10_deep_learning/05_keras_recurrent_networks
-  - file: 10_deep_learning/07_pytorch_deep_learning
+  - file: 10_deep_learning/01_spacy_text_mining           # 23.0
+  - file: 10_deep_learning/03_numpy_gradient_descent      # 19.4
+  - file: 10_deep_learning/04_keras_multilayer_perceptron # 20.2
+  - file: 10_deep_learning/05_keras_recurrent_networks    # 17.6
+  - file: 10_deep_learning/07_pytorch_deep_learning       # 8.4
 
 - file: 11_r_programming/_intro
   sections:
-  - file: 11_r_programming/01_r_basic_concepts
-  - file: 11_r_programming/02_r_data_structures
-  - file: 11_r_programming/03_tidyverse_data_wrangling
-  - file: 11_r_programming/04_dplyr_data_cleaning
-  - file: 11_r_programming/05_ggplot_data_visualization
-  - file: 11_r_programming/06_r_statistics
+  - file: 11_r_programming/01_r_basic_concepts          # 21.2
+  - file: 11_r_programming/02_r_data_structures         # 14.5
+  - file: 11_r_programming/03_tidyverse_data_wrangling  # 18.5
+  - file: 11_r_programming/04_dplyr_data_cleaning       # 19.5
+  - file: 11_r_programming/05_ggplot_data_visualization # 22.2
+  - file: 11_r_programming/06_r_statistics              # 21.7
 
 - file: 12_scientific_interface/_intro
   sections:
