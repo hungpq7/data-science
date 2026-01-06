@@ -16,7 +16,7 @@ chapters:
 - file: 02_mathematics/_intro
   sections:
   - file: 02_mathematics/01_numpy_linear_algebra     # 20.1
-  - file: 02_mathematics/02_sympy_calculus           # 15.4
+  - file: 02_mathematics/02_sympy_calculus           # 15.8
   - file: 02_mathematics/02_scipy_optimization       # ?
   - file: 02_mathematics/04_pytorch_gradient_descent # 17.6
   - file: 02_mathematics/05_scipy_probability        # 17.6
