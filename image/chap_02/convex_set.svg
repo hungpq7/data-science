@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <style>
+      .title{
+        font: 18px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        fill: #0b1220;
+        font-weight: 700;
+        letter-spacing: .2px;
+        text-anchor: middle;
+      }
+      .setFill{
+        fill: #f6f7fb;
+        stroke: #1f2937;
+        stroke-width: 3;
+        stroke-linejoin: round;
+      }
+      .point{ fill: #0b1220; }
+
+      .label{
+        font: 14px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        fill: #0b1220;
+        font-weight: 650;
+      }
+      .segConvex{
+        stroke: #14b8a6;
+        stroke-width: 3;
+        stroke-linecap: round;
+      }
+      .segNonconvex{
+        stroke: #fb7185;
+        stroke-width: 3;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Titles -->
+  <text class="title" x="197.5" y="55">Convex set</text>
+  <text class="title" x="662.5" y="55">Non-convex set</text>
+
+  <!-- Left: Convex example -->
+  <path class="setFill"
+        d="M112.5,235
+           C 67.5,185 82.5,105 157.5,90
+           C 242.5,72 322.5,118 327.5,185
+           C 332.5,245 264.5,268 197.5,268
+           C 147.5,268 127.5,262 112.5,235 Z"/>
+
+  <line class="segConvex" x1="162.5" y1="150" x2="272.5" y2="200"/>
+  <circle class="point" cx="162.5" cy="150" r="6"/>
+  <circle class="point" cx="272.5" cy="200" r="6"/>
+
+  <text class="label" x="147.5" y="140">x</text>
+  <text class="label" x="282.5" y="215">y</text>
+
+  <!-- Right: Nonconvex example (rounded corners) -->
+  <!-- Rounded via a non-scaling stroke and round caps/joins + arc commands -->
+  <path class="setFill"
+        d="
+          M 512.5,100
+          H 812.5
+          A 20 20 0 0 1 832.5,120
+          V 225
+          A 20 20 0 0 1 812.5,245
+          H 732.5
+          A 14 14 0 0 1 718.5,231
+          V 174
+          A 14 14 0 0 0 704.5,160
+          H 630.5
+          A 14 14 0 0 0 616.5,174
+          V 231
+          A 14 14 0 0 1 602.5,245
+          H 512.5
+          A 20 20 0 0 1 492.5,225
+          V 120
+          A 20 20 0 0 1 512.5,100
+          Z"/>
+
+  <line class="segNonconvex" x1="572.5" y1="210" x2="772.5" y2="150"/>
+  <circle class="point" cx="572.5" cy="210" r="6"/>
+  <circle class="point" cx="772.5" cy="150" r="6"/>
+
+  <text class="label" x="557.5" y="200">x</text>
+  <text class="label" x="782.5" y="140">y</text>
+</svg>
