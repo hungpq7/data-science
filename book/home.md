@@ -45,13 +45,13 @@ Using [MyST-NB](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell
 
 ## Image
 ```
-:::{image} ../image/chap_05/matplotlib_color_names.png
+:::{image} ../image/chap_05/matplotlib_color_names.svg
 :height: 600px
 :align: center
 :::
 ```
 
-:::{image} ../image/chap_05/matplotlib_color_names.png
+:::{image} ../image/chap_05/matplotlib_color_names.svg
 :height: 600px
 :align: center
 :::
