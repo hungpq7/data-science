@@ -75,29 +75,44 @@ With [Sphinx](https://sphinx-book-theme.readthedocs.io/en/stable/reference/kitch
 - `danger` (red)
 
 :::::{tab-set}
+
 ::::{tab-item} Note
+:::{note}
+Attention is all you need.
+:::
 ```text
 :::{note}
 Attention is all you need.
 :::
 ```
-:::{note}
-Attention is all you need.
-:::
 ::::
 
-::::{tab-item} Practice
+::::{tab-item} Example
+:::{admonition} Example
+:class: tip
+Attention is all you need.
+:::
 ```text
-:::{admonition} Practice
+:::{admonition} Example
 :class: tip
 Attention is all you need.
 :::
 ```
-:::{admonition} Practice
+::::
+
+::::{tab-item} Pitfall
+:::{admonition} Pitfall
 :class: tip
 Attention is all you need.
 :::
+```text
+:::{admonition} Pitfall
+:class: tip
+Attention is all you need.
+:::
+```
 ::::
+
 :::::
 
 ## Dropdown
