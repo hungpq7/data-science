@@ -102,12 +102,12 @@ Attention is all you need.
 
 ::::{tab-item} Pitfall
 :::{admonition} Pitfall
-:class: tip
+:class: attention
 Attention is all you need.
 :::
 ```text
 :::{admonition} Pitfall
-:class: tip
+:class: attention
 Attention is all you need.
 :::
 ```
