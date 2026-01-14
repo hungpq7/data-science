@@ -100,27 +100,27 @@ Attention is all you need.
 ```
 ::::
 
-::::{tab-item} Pitfall
-:::{admonition} Pitfall
+::::{tab-item} Intuition
+:::{admonition} Intuition
 :class: attention
 Attention is all you need.
 :::
 ```text
-:::{admonition} Pitfall
+:::{admonition} Intuition
 :class: attention
 Attention is all you need.
 :::
 ```
 ::::
 
-::::{tab-item} Intuition
-:::{admonition} Intuition
-:class: deprecated
+::::{tab-item} Pitfall
+:::{admonition} Pitfall
+:class: danger
 Attention is all you need.
 :::
 ```text
-:::{admonition} Intuition
-:class: deprecated
+:::{admonition} Pitfall
+:class: danger
 Attention is all you need.
 :::
 ```
