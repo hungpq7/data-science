@@ -111,6 +111,7 @@ Attention is all you need.
 Attention is all you need.
 :::
 ```
+::::
 
 ::::{tab-item} Intuition
 :::{admonition} Intuition
