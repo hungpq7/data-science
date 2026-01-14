@@ -87,13 +87,13 @@ Attention is all you need.
 ```
 ::::
 
-::::{tab-item} Example
-:::{admonition} Example
+::::{tab-item} Practice
+:::{admonition} Practice
 :class: tip
 Attention is all you need.
 :::
 ```text
-:::{admonition} Example
+:::{admonition} Practice
 :class: tip
 Attention is all you need.
 :::
