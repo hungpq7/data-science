@@ -112,13 +112,13 @@ Attention is all you need.
 :::
 ```
 
-::::{tab-item} Inuition
-:::{admonition} Inuition
+::::{tab-item} Intuition
+:::{admonition} Intuition
 :class: deprecated
 Attention is all you need.
 :::
 ```text
-:::{admonition} Inuition
+:::{admonition} Intuition
 :class: deprecated
 Attention is all you need.
 :::
