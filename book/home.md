@@ -111,6 +111,18 @@ Attention is all you need.
 Attention is all you need.
 :::
 ```
+
+::::{tab-item} Inuition
+:::{admonition} Inuition
+:class: deprecated
+Attention is all you need.
+:::
+```text
+:::{admonition} Inuition
+:class: deprecated
+Attention is all you need.
+:::
+```
 ::::
 
 :::::
