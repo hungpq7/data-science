@@ -1,17 +1,11 @@
-from .setup import NBConfig
+from .setting import NBConfig
 NBConfig.setup()
 
 import yaml
 import importlib
 from pathlib import Path
 
-from . import ml
-
-# with Path(__file__).with_name('alias/ds_module.yaml').open('r', encoding='utf-8') as f:
-# with Path('dshub/alias/ds_module.yaml').open('r', encoding='utf-8') as f:
-#     _lazy = yaml.safe_load(f)
-
-p = Path(__file__).parent.resolve() / 'alias/ds_module.yaml'
+p = Path(__file__).parent.resolve() / 'alias/module.yaml'
 with p.open('r', encoding='utf-8') as f:
     _lazy = yaml.safe_load(f)
 
@@ -19,9 +13,11 @@ def __getattr__(name):
     if name in _lazy:
         module = importlib.import_module(_lazy[name])
 
+        # numpy settings
         if name == 'np':
             module.set_printoptions(precision=4, suppress=True)
 
+        # matplotlib settings
         elif name == 'plt':
             module.rcParams['figure.constrained_layout.use'] = True
             module.style.use(['seaborn-v0_8', 'seaborn-v0_8-whitegrid'])
@@ -31,6 +27,7 @@ def __getattr__(name):
             except Exception:
                 pass
 
+        # pandas settings
         elif name == 'pd':
             try:
                 import janitor
