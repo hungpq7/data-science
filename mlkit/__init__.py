@@ -7,6 +7,10 @@ from pathlib import Path
 
 from . import ml
 
+# with Path(__file__).with_name('alias/ds_module.yaml').open('r', encoding='utf-8') as f:
+# with Path('dshub/alias/ds_module.yaml').open('r', encoding='utf-8') as f:
+#     _lazy = yaml.safe_load(f)
+
 p = Path(__file__).parent.resolve() / 'alias/ds_module.yaml'
 with p.open('r', encoding='utf-8') as f:
     _lazy = yaml.safe_load(f)
