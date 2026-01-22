@@ -5,7 +5,7 @@ import yaml
 import importlib
 from pathlib import Path
 
-p = Path(__file__).parent.resolve() / 'alias/module.yaml'
+p = Path(__file__).parent.resolve() / 'alias.yaml'
 with p.open('r', encoding='utf-8') as f:
     _lazy = yaml.safe_load(f)
 
