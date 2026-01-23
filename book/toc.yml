@@ -16,14 +16,14 @@ chapters:
 
 - file: 02_mathematics/_intro
   sections:
-  - file: 02_mathematics/01_numpy_linear_algebra      # 20.1
-  - file: 02_mathematics/02_sympy_calculus            # 15.9
-  - file: 02_mathematics/03_ortools_optimization      # ?
-  - file: 02_mathematics/04_pytorch_gradient_descent  # 17.6
-  - file: 02_mathematics/05_scipy_probability         # 17.6
-  - file: 02_mathematics/06_scipy_statistics          # 12.1
-  - file: 02_mathematics/07_pingouin_hypo_test        # 13.0
-  - file: 02_mathematics/08_networkx_network_analysis # x
+  - file: 02_mathematics/01_numpy_linear_algebra     # 20.1
+  - file: 02_mathematics/02_sympy_calculus           # 15.9
+  - file: 02_mathematics/03_ortools_optimization     # ?
+  - file: 02_mathematics/04_pytorch_gradient_descent # 17.6
+  - file: 02_mathematics/05_scipy_probability        # 17.6
+  - file: 02_mathematics/06_scipy_statistics         # 12.1
+  - file: 02_mathematics/07_pingouin_hypo_test       # 13.0
+  - file: 02_mathematics/08_networkx_graph_theory    # x
 
 - file: 03_data_manipulation/_intro
   sections:
