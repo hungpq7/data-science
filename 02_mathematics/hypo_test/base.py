@@ -4,6 +4,10 @@ class BaseTest:
         self.alpha = alpha
         self.objective = None
         self.const = None
+        self.p_value = None
+        self.test_stat = None
+        self.dist = None
+        
     
     def _compute_stats(self):
         self.test_stat = None
