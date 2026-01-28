@@ -22,7 +22,7 @@ chapters:
   - file: 02_mathematics/04_pytorch_gradient_descent # 17.6
   - file: 02_mathematics/05_scipy_probability        # 17.6
   - file: 02_mathematics/06_scipy_statistics         # 12.1
-  - file: 02_mathematics/07_pingouin_hypo_test       # 13.0
+  - file: 02_mathematics/07_scipy_hypothesis_test    # 13.0
   - file: 02_mathematics/08_networkx_graph_theory    # x
 
 - file: 03_data_manipulation/_intro

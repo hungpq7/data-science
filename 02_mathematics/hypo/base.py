@@ -7,7 +7,6 @@ class BaseTest:
         self.p_value = None
         self.test_stat = None
         self.dist = None
-        
     
     def _compute_stats(self):
         self.test_stat = None
