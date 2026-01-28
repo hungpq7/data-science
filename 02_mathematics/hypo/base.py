@@ -33,14 +33,15 @@ class BaseTest:
             self.sign_test = '>'
             self.h0_conclusion = 'fail to reject'
 
-    def conduct(self):
+    def conduct(self, print_result=True):
         self._compute_stats()
         self._set_dist()
         self._compute_pvalue(self.test_stat, self.dist)
         self._make_decision(self.p_value)
 
-        print(
-            f'H1: {self.objective} {self.sign_h1} {self.const}\n'
-            f'p-value = {self.p_value:.4f} {self.sign_test} {self.alpha}\n'
-            f'Conclusion: {self.h0_conclusion} H0'
-        )
+        if print_result is True:
+            print(
+                f'H1: {self.objective} {self.sign_h1} {self.const}\n'
+                f'p-value = {self.p_value:.4f} {self.sign_test} {self.alpha}\n'
+                f'Conclusion: {self.h0_conclusion} H0'
+            )

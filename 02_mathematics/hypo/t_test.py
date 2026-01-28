@@ -2,6 +2,7 @@ import numpy as np
 import scipy.stats as stats
 
 from .base import BaseTest
+from .f_test import VarianceTest
 
 class MeanTest(BaseTest):
     def __init__(self, mean, var, size, const=0, equal_var=None, **kwargs):
@@ -13,11 +14,11 @@ class MeanTest(BaseTest):
         self.equal_var = equal_var
 
         if isinstance(size, (list, tuple, np.ndarray)) and len(size) == 2:
-            self.type = '2-sample'
+            self.ndim = 2
             self.objective = 'mean1 - mean2'
 
         elif isinstance(size, (float, int)):
-            self.type = '1-sample'
+            self.ndim = 1
             self.objective = 'mean'
     
     @classmethod
@@ -33,15 +34,20 @@ class MeanTest(BaseTest):
         return cls(mean, var, size, **kwargs)
 
     def _compute_stats(self):
-        if self.type == '1-sample':
+        if self.ndim == 1:
             se = np.sqrt(self.var / self.size)
             self.test_stat = (self.mean - self.const) / se
             self.dof = self.size - 1
 
-        elif self.type == '2-sample':
+        elif self.ndim == 2:
             mean1, mean2 = self.mean
             var1, var2 = self.var
             size1, size2 = self.size
+
+            f_test = VarianceTest(var=(var1, var2), size=(size1, size2))
+            f_test.conduct(print_result=False)
+            if not f_test.h0_conclusion == 'reject':
+                self.equal_var = True
 
             if self.equal_var is None:
                 self.equal_var = np.isclose(var1, var2)

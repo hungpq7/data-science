@@ -11,11 +11,11 @@ class PropTest(BaseTest):
         self.const = const
 
         if isinstance(size, (list, tuple, np.ndarray)) and len(size) == 2:
-            self.type = '2-sample'
+            self.ndim = 2
             self.objective = 'p1 - p2'
 
         elif isinstance(size, (float, int)):
-            self.type = '1-sample'
+            self.ndim = 1
             self.objective = 'p'
     
     @classmethod
@@ -29,11 +29,11 @@ class PropTest(BaseTest):
         return cls(prop=prop, size=size, **kwargs)
 
     def _compute_stats(self):
-        if self.type == '1-sample':
+        if self.ndim == 1:
             p1, n1 = self.prop, self.size
             p2, n2 = 0, np.inf
 
-        elif self.type == '2-sample':
+        elif self.ndim == 2:
             p1, n1 = self.prop[0], self.size[0]
             p2, n2 = self.prop[1], self.size[1]
 
