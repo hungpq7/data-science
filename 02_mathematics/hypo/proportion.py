@@ -3,7 +3,7 @@ import scipy.stats as stats
 
 from .base import BaseTest
 
-class PropTest(BaseTest):
+class ProportionTest(BaseTest):
     def __init__(self, prop, size, const=0, **kwargs):
         super().__init__(**kwargs)
         self.prop = prop

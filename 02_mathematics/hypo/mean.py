@@ -2,7 +2,7 @@ import numpy as np
 import scipy.stats as stats
 
 from .base import BaseTest
-from .f_test import VarianceTest
+from .variance import VarianceTest
 
 class MeanTest(BaseTest):
     def __init__(self, mean, var, size, const=0, equal_var=None, **kwargs):

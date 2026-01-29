@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from IPython.display import display, Markdown
 
 f"""
 ### Hypothesis Test Result: {self.objective.title()}
@@ -55,27 +54,10 @@ class BaseTest:
 
         if print_result is True:
             print(
-                f'H1: {self.objective} {self.sign_h1} {self.const}\n'
+                f'Alternative hypothesis H1: {self.objective} {self.sign_h1} {self.const}\n'
                 f'p-value = {self.p_value:.4f} {self.sign_test} {alpha}\n'
                 f'Conclusion: {self.h0_conclusion} H0'
             )
-
-        if print_result:
-                    # Determine color for the conclusion
-                    color = "seagreen" if self.h0_conclusion == 'fail to reject' else "indianred"
-                    
-                    md_output = f"""
-### Hypothesis Test Result: {self.objective.title()}
----
-* **Null Hypothesis ($H_0$):** ${self.objective} = {self.const}$
-* **Alternative Hypothesis ($H_a$):** ${self.objective} {self.sign_h1} {self.const}$
-* **Test Statistic:** `{self.test_stat:.4f}`
-* **p-value:** `{self.p_value:.4f}`
-
-**Decision:** At $\\alpha = {alpha}$, $p \\text{{-value}} {self.sign_test} \\alpha$.
-We **<span style='color:{color}'>{self.h0_conclusion.upper()}</span>** the null hypothesis.
-                    """
-                    display(Markdown(md_output))
     
     def plot(self):
             if self.dist is None or self.p_value is None:
