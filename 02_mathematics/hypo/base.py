@@ -54,8 +54,7 @@ class BaseTest:
         if print_result is True:
             print(
                 f'Alternative Hypothesis (H1): {self.objective} {self.alternative} {self.const}\n'
-                f'p-value = {self.p_value:.4f} {self.sign_test} {self.alpha}\n'
-                f'Conclusion: {self.h0_conclusion} H0'
+                f'p-value = {self.p_value:.4f} {self.sign_test} {self.alpha} --> {self.h0_conclusion} H0'
             )
     
     def plot(self):
@@ -68,7 +67,7 @@ class BaseTest:
             # 1. Define x-range (covering 99.9% of the distribution)
             x = np.linspace(self.dist.ppf(0.001), self.dist.ppf(0.999), 500)
             y = self.dist.pdf(x)
-            ax.plot(x, y, color='grey', ls='-', lw=2, label='The distribution')
+            ax.plot(x, y, color='grey', ls='-', lw=2, label=f'{self.dist.dist.name.title()} distribution')
             ax.axhline(0, color='grey', linestyle='--', lw=1)
 
             # 2. Handle Rejection Regions based on the Alternative Hypothesis
@@ -79,7 +78,7 @@ class BaseTest:
                 x_left = np.linspace(x.min(), cv_low, 100)
                 x_right = np.linspace(cv_high, x.max(), 100)
                 
-                ax.fill_between(x_left, self.dist.pdf(x_left), color='darkorange', alpha=0.3, label='Rejection Region')
+                ax.fill_between(x_left, self.dist.pdf(x_left), color='darkorange', alpha=0.3, label='Rejection region')
                 ax.fill_between(x_right, self.dist.pdf(x_right), color='darkorange', alpha=0.3)
                 ax.axvline(cv_low, color='darkorange', linestyle='--', lw=1)
                 ax.axvline(cv_high, color='darkorange', linestyle='--', lw=1)
@@ -87,16 +86,16 @@ class BaseTest:
             elif self.alternative == '>':
                 cv = self.dist.ppf(1 - self.alpha)
                 x_rej = np.linspace(cv, x.max(), 100)
-                ax.fill_between(x_rej, self.dist.pdf(x_rej), color='darkorange', alpha=0.3, label='Rejection Region')
+                ax.fill_between(x_rej, self.dist.pdf(x_rej), color='darkorange', alpha=0.3, label='Rejection region')
                 ax.axvline(cv, color='darkorange', linestyle='--', lw=1)
 
             elif self.alternative == '<':
                 cv = self.dist.ppf(self.alpha)
                 x_rej = np.linspace(x.min(), cv, 100)
-                ax.fill_between(x_rej, self.dist.pdf(x_rej), color='darkorange', alpha=0.3, label='Rejection Region')
+                ax.fill_between(x_rej, self.dist.pdf(x_rej), color='darkorange', alpha=0.3, label='Rejection region')
                 ax.axvline(cv, color='darkorange', linestyle='--', lw=1)
 
-            ax.axvline(self.test_stat, color='indianred', lw=2, label=f'Test Stat: {self.test_stat:.2f}')
+            ax.axvline(self.test_stat, color='indianred', lw=2, label=f'Test stat: {self.test_stat:.2f}')
             
             ax.set_xlabel('Value')
             ax.set_ylabel('Probability Density')
