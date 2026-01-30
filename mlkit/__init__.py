@@ -23,7 +23,7 @@ def __getattr__(name):
             module.style.use(['seaborn-v0_8', 'seaborn-v0_8-whitegrid'])
             try:
                 ip = get_ipython()
-                ip.run_line_magic("config", "InlineBackend.figure_format = 'retina'")
+                ip.run_line_magic("config", "InlineBackend.figure_formats = 'svg'")
             except Exception:
                 pass
 
