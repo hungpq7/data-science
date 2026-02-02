@@ -20,7 +20,10 @@ def __getattr__(name):
         # matplotlib settings
         elif name == 'plt':
             module.rcParams['figure.constrained_layout.use'] = True
+            module.rcParams['mathtext.fontset'] = 'cm'
+            module.rcParams['font.family'] = 'sans-serif'
             module.style.use(['seaborn-v0_8', 'seaborn-v0_8-whitegrid'])
+
             try:
                 ip = get_ipython()
                 ip.run_line_magic("config", "InlineBackend.figure_formats = 'svg'")
