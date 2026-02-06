@@ -10,7 +10,7 @@ chapters:
   - file: 01_python_programming/02_python_data_types        # 19.6
   - file: 01_python_programming/03_python_data_structures   # 13.7
   - file: 01_python_programming/04_python_functions_objects # 14.3
-  - file: 01_python_programming/_05_python_algorithms
+  - file: 01_python_programming/05_python_algorithms
   - file: 01_python_programming/06_python_external_sources  # 9.0
   - file: 01_python_programming/07_selenium_web_scraping    # 12.3
 
@@ -45,7 +45,7 @@ chapters:
   - file: 05_data_visualization/01_matplotlib_graph_construction     # 23.0
   - file: 05_data_visualization/02_seaborn_statistical_visualization # 26.6
   - file: 05_data_visualization/03_plotly_interactive_visualization  # 27.4
-  - file: 05_data_visualization/_04_streamlit_data_app
+  - file: 05_data_visualization/04_streamlit_data_app
 
 - file: 06_machine_learning/_intro
   sections:
