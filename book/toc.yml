@@ -45,8 +45,7 @@ chapters:
   - file: 05_data_visualization/01_matplotlib_graph_construction     # 23.0
   - file: 05_data_visualization/02_seaborn_statistical_visualization # 26.6
   - file: 05_data_visualization/03_plotly_interactive_visualization  # 27.4
-  - file: 05_data_visualization/_04_gradio_function_demo
-  - file: 05_data_visualization/_05_streamlit_data_app
+  - file: 05_data_visualization/_04_streamlit_data_app
 
 - file: 06_machine_learning/_intro
   sections:
