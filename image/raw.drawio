@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="13" scale="2" border="0">
     <diagram name="rnn_general" id="cRlgv7Jlg5Xyr5EoeQMh">
-        <mxGraphModel dx="1147" dy="655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="1" shadow="0">
+        <mxGraphModel dx="1086" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="1" shadow="0">
             <root>
                 <mxCell id="dJiace8CZ2i8Uqz_VCcc-0"/>
                 <mxCell id="dJiace8CZ2i8Uqz_VCcc-1" parent="dJiace8CZ2i8Uqz_VCcc-0"/>
@@ -3011,7 +3011,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="attention_luong" id="6j9VI_S-A2YJ9sHYpbF3">
-        <mxGraphModel dx="1147" dy="655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+        <mxGraphModel dx="1086" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
             <root>
                 <mxCell id="Oa_DSF1uD9sySH56Cijd-0"/>
                 <mxCell id="Oa_DSF1uD9sySH56Cijd-1" parent="Oa_DSF1uD9sySH56Cijd-0"/>
