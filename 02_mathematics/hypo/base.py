@@ -80,20 +80,16 @@ class BaseTest:
                 
                 ax.fill_between(x_left, self.dist.pdf(x_left), color='darkorange', alpha=0.3, label='Rejection region')
                 ax.fill_between(x_right, self.dist.pdf(x_right), color='darkorange', alpha=0.3)
-                ax.axvline(cv_low, color='darkorange', linestyle='--', lw=1)
-                ax.axvline(cv_high, color='darkorange', linestyle='--', lw=1)
 
             elif self.alternative == '>':
                 cv = self.dist.ppf(1 - self.alpha)
                 x_rej = np.linspace(cv, x.max(), 100)
                 ax.fill_between(x_rej, self.dist.pdf(x_rej), color='darkorange', alpha=0.3, label='Rejection region')
-                ax.axvline(cv, color='darkorange', linestyle='--', lw=1)
 
             elif self.alternative == '<':
                 cv = self.dist.ppf(self.alpha)
                 x_rej = np.linspace(x.min(), cv, 100)
                 ax.fill_between(x_rej, self.dist.pdf(x_rej), color='darkorange', alpha=0.3, label='Rejection region')
-                ax.axvline(cv, color='darkorange', linestyle='--', lw=1)
 
             ax.axvline(self.test_stat, color='indianred', lw=2, label=f'Test stat: {self.test_stat:.2f}')
             
@@ -102,7 +98,4 @@ class BaseTest:
             ax.legend()
             ax.grid(False)
 
-            f = io.StringIO()
-            plt.savefig(f, format='svg')
-            plt.close(fig)
-            display(SVG(f.getvalue()))
+            plt.show()
