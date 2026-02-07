@@ -80,7 +80,7 @@ chapters:
 - file: 10_deep_learning/_intro
   sections:
   - file: 10_deep_learning/01_spacy_text_mining           # 23.0
-  - file: 10_deep_learning/03_numpy_gradient_descent      # 19.4
+  - file: 10_deep_learning/03_pytorch_gradient_descent    # 19.4
   - file: 10_deep_learning/04_keras_multilayer_perceptron # 20.2
   - file: 10_deep_learning/05_keras_recurrent_networks    # 17.6
   - file: 10_deep_learning/07_pytorch_deep_learning       # 8.4
