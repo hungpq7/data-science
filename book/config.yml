@@ -31,8 +31,8 @@ sphinx:
     html_js_files:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
       - url_new_tab.js
-      - https://unpkg.com/d3@7
-      - https://unpkg.com/function-plot/dist/function-plot.js
+      # - https://unpkg.com/d3@7
+      # - https://unpkg.com/function-plot/dist/function-plot.js
     html_css_files:
       - ui_tweak.css
     nb_render_image_options:
