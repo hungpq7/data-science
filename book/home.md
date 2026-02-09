@@ -262,17 +262,14 @@ flowchart TB
 :::
 
 Incoming topics:
-- Data Structure and Algorithms
-- Optimization
-- Network Analysis
+- Applied Math
 - Polars library
 - Bokeh library
 - FastAPI library
 - Association Rules
+- Reinforcement Learning
 - Image Processing
 - Convolutional Network
 - Transfer Learning
-- Streamlit and Gradio
 - Langchain and Langgraph
 - Statistics in R
-
