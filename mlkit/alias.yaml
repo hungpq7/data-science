@@ -9,6 +9,7 @@ du: dateutil.relativedelta
 np: numpy
 pd: pandas
 pl: polars
+sm: statsmodels.api
 stats: scipy.stats
 linalg: scipy.linalg
 optimize: scipy.optimize
