@@ -20,3 +20,7 @@ plt: matplotlib.pyplot
 sns: seaborn
 px: plotly.express
 nx: networkx
+
+xgb: xgboost
+lgb: lightgbm
+ctb: catboost
