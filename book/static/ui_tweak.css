@@ -14,10 +14,10 @@ tr:hover, tr:nth-child(even):hover, td:hover {
     background-color: lavender !important;
 }
 
-th, td {
+/* th, td {
     padding: 0;
     line-height: 1.3;
-}
+} */
 
 a {
     text-decoration: none;
