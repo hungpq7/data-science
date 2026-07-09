@@ -1,53 +1,69 @@
-name: deploy-book
+name: Deploy Jupyter Book v2 site
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
-env:
-  BASE_URL: /${{ github.event.repository.name }}
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  deploy-book:
+  build:
+    name: Build static HTML
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
 
-      - name: Set up Python 3.11
+      - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version: "3.12"
           cache: pip
-          cache-dependency-path: book/requirements.txt
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
 
       - name: Install dependencies
-        run: pip install -r book/requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Build the book
-        run: jupyter-book build . --config book/config.yml --toc book/toc.yml
+      - name: Build Jupyter Book static HTML
+        env:
+          # For normal project Pages:
+          #   https://OWNER.github.io/REPO/
+          # this becomes /REPO.
+          #
+          # For user/org Pages repos:
+          #   OWNER.github.io
+          # this becomes empty.
+          BASE_URL: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && '' || format('/{0}', github.event.repository.name) }}
+        run: |
+          jupyter book build --html --strict
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
           path: _build/html
 
-      - name: Deploy to GitHub Pages
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy Pages site
         id: deployment
         uses: actions/deploy-pages@v5

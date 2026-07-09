@@ -1,0 +1,22 @@
+version: 1
+
+project:
+  title: Minimal Jupyter Book v2
+  description: Minimal Jupyter Book v2 project with all notebooks inside content/.
+  keywords:
+    - jupyter-book
+    - myst
+    - notebook
+  authors:
+    - name: HungPQ
+
+  toc:
+    - file: book/home.md
+    - file: 01_python_programming/_intro.md
+      children:
+        - file: 01_python_programming/01_python_basic_concepts.ipynb
+        - file: 01_python_programming/02_python_data_types.ipynb
+
+site:
+  template: book-theme
+  title: Minimal Jupyter Book v2
