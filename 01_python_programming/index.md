@@ -1,4 +1,4 @@
-# **1. Python Programming**
+# 1. Python Programming
 
 :::{toc}
 :context: children
