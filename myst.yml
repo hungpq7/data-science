@@ -1,7 +1,7 @@
 version: 1
 
 project:
-  title: Minimal Jupyter Book v2
+  title: Data Science
   description: Minimal Jupyter Book v2 project with all notebooks inside content/.
   keywords:
     - jupyter-book
@@ -20,8 +20,7 @@ project:
         - file: 01_python_programming/04_python_functions_objects # 14.3
         - file: 01_python_programming/05_python_algorithms
         - file: 01_python_programming/06_python_external_sources  # 9.0
-        - file: 01_python_programming/07_selenium_web_scraping    # 12.3
-        
+        - file: 01_python_programming/07_selenium_web_scraping    # 12.3   
     - file: 02_mathematics/_intro
       children:
         - file: 02_mathematics/01_numpy_linear_algebra     # 20.4
