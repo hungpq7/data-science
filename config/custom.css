@@ -1,0 +1,4 @@
+/* Bold top-level chapter titles that contain child pages */
+.myst-toc > div > .myst-toc-item > :first-child {
+  font-weight: 700;
+}

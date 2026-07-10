@@ -36,4 +36,4 @@ site:
   template: book-theme
   title: Minimal Jupyter Book v2
   options:
-    style: ./custom.css
+    style: config/custom.css
