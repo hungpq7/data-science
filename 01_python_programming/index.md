@@ -1,4 +1,5 @@
 # **1. Python Programming**
 
-:::{tableofcontents}
+:::{toc}
+:context: children
 :::
