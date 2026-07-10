@@ -13,7 +13,7 @@ project:
         - file: 01_python_programming/07_selenium_web_scraping.ipynb    # 12.3   
     - title: 2. Mathematics
       children:
-        - pattern: '02_mathematics/*.ipynb'
+        - pattern: 02_mathematics/*.ipynb
         # - file: 02_mathematics/01_numpy_linear_algebra     # 20.4
         # - file: 02_mathematics/02_sympy_calculus           # 16.5
         # - file: 02_mathematics/03_ortools_optimization     # 16.8
