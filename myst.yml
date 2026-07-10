@@ -14,7 +14,7 @@ project:
   jupyter: true
 
   extends:
-    - toc.yml
+    - config/toc.yml
 
   # toc:
   #   - file: book/home.md
