@@ -11,7 +11,8 @@ project:
         - file: 01_python_programming/05_python_algorithms
         - file: 01_python_programming/06_python_external_sources  # 9.0
         - file: 01_python_programming/07_selenium_web_scraping    # 12.3   
-    - file: 02_mathematics/index.md
+    # - file: 02_mathematics/index.md
+    - title: Toan hoc
       children:
         - file: 02_mathematics/01_numpy_linear_algebra     # 20.4
         - file: 02_mathematics/02_sympy_calculus           # 16.5
