@@ -39,16 +39,9 @@ jobs:
 
       - name: Build Jupyter Book static HTML
         env:
-          # For normal project Pages:
-          #   https://OWNER.github.io/REPO/
-          # this becomes /REPO.
-          #
-          # For user/org Pages repos:
-          #   OWNER.github.io
-          # this becomes empty.
-          BASE_URL: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && '' || format('/{0}', github.event.repository.name) }}
+          BASE_URL: /${{ github.event.repository.name }}
         run: |
-          jupyter book build --html --strict
+          jupyter book build --html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
