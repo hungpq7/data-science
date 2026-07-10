@@ -7,30 +7,36 @@ project:
     - jupyter-book
     - myst
     - notebook
-  authors:
-    - name: HungPQ
+  # authors:
+  #   - name: []
 
-  toc:
-    - file: book/home.md
-    - file: 01_python_programming/index.md
-    # - title: **Python Programming**
-      children:
-        - file: 01_python_programming/01_python_basic_concepts    # 9.3
-        - file: 01_python_programming/02_python_data_types        # 19.6
-        - file: 01_python_programming/03_python_data_structures   # 13.7
-        - file: 01_python_programming/04_python_functions_objects # 14.3
-        - file: 01_python_programming/05_python_algorithms
-        - file: 01_python_programming/06_python_external_sources  # 9.0
-        - file: 01_python_programming/07_selenium_web_scraping    # 12.3   
-    - file: 02_mathematics/_intro
-      children:
-        - file: 02_mathematics/01_numpy_linear_algebra     # 20.4
-        - file: 02_mathematics/02_sympy_calculus           # 16.5
-        - file: 02_mathematics/03_ortools_optimization     # 16.8
-        - file: 02_mathematics/04_scipy_probability        # 19.4
-        - file: 02_mathematics/05_scipy_statistics         # 11.7
-        - file: 02_mathematics/06_scipy_hypothesis_test    # 11.5
-        - file: 02_mathematics/07_networkx_graph_theory    # 12.9
+  github: hungpq7/data-science
+  jupyter: true
+
+  extends:
+    - toc.yml
+
+  # toc:
+  #   - file: book/home.md
+  #   - file: 01_python_programming/index.md
+  #   # - title: **Python Programming**
+  #     children:
+  #       - file: 01_python_programming/01_python_basic_concepts    # 9.3
+  #       - file: 01_python_programming/02_python_data_types        # 19.6
+  #       - file: 01_python_programming/03_python_data_structures   # 13.7
+  #       - file: 01_python_programming/04_python_functions_objects # 14.3
+  #       - file: 01_python_programming/05_python_algorithms
+  #       - file: 01_python_programming/06_python_external_sources  # 9.0
+  #       - file: 01_python_programming/07_selenium_web_scraping    # 12.3   
+  #   - file: 02_mathematics/_intro
+  #     children:
+  #       - file: 02_mathematics/01_numpy_linear_algebra     # 20.4
+  #       - file: 02_mathematics/02_sympy_calculus           # 16.5
+  #       - file: 02_mathematics/03_ortools_optimization     # 16.8
+  #       - file: 02_mathematics/04_scipy_probability        # 19.4
+  #       - file: 02_mathematics/05_scipy_statistics         # 11.7
+  #       - file: 02_mathematics/06_scipy_hypothesis_test    # 11.5
+  #       - file: 02_mathematics/07_networkx_graph_theory    # 12.9
 
 site:
   template: book-theme
