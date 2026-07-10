@@ -1,10 +1,8 @@
----
-title: Data Science with Python
----
-
 # Data Science
 A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
+:::{tableofcontents}
+:::
 
 ## Local build
 ```bash
