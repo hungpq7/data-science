@@ -13,8 +13,8 @@ project:
   github: hungpq7/data-science
   jupyter: true
 
-  extends:
-    - config/toc.yml
+extends:
+  - config/toc.yml
 
 site:
   template: book-theme
