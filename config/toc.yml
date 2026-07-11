@@ -2,17 +2,13 @@ version: 1
 project:
   toc:
     - file: book/home.md
+    
     - title: 1. Python Programming
       children:
-        - file: 01_python_programming/01_python_basic_concepts.ipynb    # 9.3
-        - file: 01_python_programming/02_python_data_types.ipynb        # 19.6
-        - file: 01_python_programming/03_python_data_structures.ipynb   # 13.7
-        - file: 01_python_programming/04_python_functions_objects.ipynb # 14.3
-        - file: 01_python_programming/05_python_algorithms.ipynb
-        - file: 01_python_programming/06_python_external_sources.ipynb  # 9.0
-        - file: 01_python_programming/07_selenium_web_scraping.ipynb    # 12.3   
+        - pattern: 01_python_programming/*.ipynb 
+
     - title: 2. Mathematics
       children:
-        - pattern: 02_mathematics/*.ipynb
         - file: 02_mathematics/_08_applied_math.ipynb
           hidden: true
+        - pattern: 02_mathematics/*.ipynb
