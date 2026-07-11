@@ -2,13 +2,47 @@ version: 1
 project:
   toc:
     - file: book/home.md
-    
+
     - title: 1. Python Programming
       children:
-        - pattern: 01_python_programming/*.ipynb 
+        - pattern: 01_python_programming/*.ipynb
 
     - title: 2. Mathematics
       children:
-        - file: 02_mathematics/_08_applied_math.ipynb
-          hidden: true
         - pattern: 02_mathematics/*.ipynb
+
+    - title: 3. Data Manipulation
+      children:
+        - pattern: 03_data_manipulation/*.ipynb
+
+    - title: 4. Big Data
+      children:
+        - pattern: 04_big_data/*.ipynb
+
+    - title: 5. Data Visualization
+      children:
+        - pattern: 05_data_visualization/*.ipynb
+
+    - title: 6. Machine Learning
+      children:
+        - pattern: 06_machine_learning/*.ipynb
+
+    - title: 7. Tabular Prediction
+      children:
+        - pattern: 07_tabular_prediction/*.ipynb
+
+    - title: 8. Time Series
+      children:
+        - pattern: 08_time_series/*.ipynb
+
+    - title: 9. Unsupervised Learning
+      children:
+        - pattern: 09_unsupervised_learning/*.ipynb
+
+    - title: 10. Deep Learning
+      children:
+        - pattern: 10_deep_learning/*.ipynb
+
+    - title: 11. R Programming
+      children:
+        - pattern: 11_r_programming/*.ipynb
