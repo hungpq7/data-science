@@ -6,7 +6,7 @@ project:
     - title: 1. Python Programming
       children:
         - pattern: 01_python_programming/*.ipynb
-        - file: 01_python_programming/test.md
+        # - file: 01_python_programming/test.md
 
     - title: 2. Mathematics
       children:
