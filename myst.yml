@@ -11,7 +11,7 @@ project:
     - name: [Hung Pham]
 
   github: hungpq7/data-science
-  jupyter: true
+  # jupyter: true
 
 extends:
   - config/toc.yml
