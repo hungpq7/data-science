@@ -11,6 +11,7 @@ project:
     - name: [Hung Pham]
 
   github: hungpq7/data-science
+  jupyter: true
 
 extends:
   - config/toc.yml
@@ -18,5 +19,5 @@ extends:
 site:
   template: book-theme
   title: Minimal Jupyter Book v2
-  # options:
-  #   style: config/custom.css
+  options:
+    style: config/custom.css

@@ -2,3 +2,13 @@
 .myst-toc > div > .myst-toc-item > :first-child {
   font-weight: 700;
 }
+
+/* Reduce whitespace below the page title */
+.myst-fm-block {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Reduce spacing above the first section */
+#skip-to-article ~ h2:first-of-type {
+  margin-top: 1rem !important;
+}
