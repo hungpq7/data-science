@@ -24,4 +24,5 @@ site:
   template: book-theme
   title: Minimal Jupyter Book v2
   options:
+    outline_maxdepth: 2
     style: config/custom.css
