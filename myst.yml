@@ -13,6 +13,9 @@ project:
   github: hungpq7/data-science
   # jupyter: true
 
+  plugins:
+    - config/plugins/colab-button.mjs
+
 extends:
   - config/toc.yml
 
