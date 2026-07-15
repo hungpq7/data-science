@@ -14,7 +14,8 @@ project:
   # jupyter: true
 
   plugins:
-    - config/plugin/colab-button.mjs
+    - type: javascript
+      path: config/plugin/colab-button.mjs
 
 extends:
   - config/toc.yml

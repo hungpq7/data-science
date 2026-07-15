@@ -1,4 +1,4 @@
-# Data Science
+# <span style="background: -webkit-linear-gradient(20deg, #09009f, #E743D9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">DATA SCIENCE</span>
 A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
 ## Local build
