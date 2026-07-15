@@ -1,7 +1,7 @@
 version: 1
 project:
   toc:
-    - file: book/home.md
+    - file: README.md
 
     - title: 1. Python Programming
       children:

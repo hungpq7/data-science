@@ -2,27 +2,25 @@ version: 1
 
 project:
   title: Data Science
-  description: Minimal Jupyter Book v2 project with all notebooks inside content/.
+  description: A Data Science book.
   keywords:
     - jupyter-book
     - myst
     - notebook
   authors:
-    - name: [Hung Pham]
+    - name: Hung Pham
 
   github: hungpq7/data-science
-  # jupyter: true
-
-  plugins:
-    - type: javascript
-      path: config/plugin/colab-button.mjs
+  jupyter: true
 
 extends:
   - config/toc.yml
 
 site:
   template: book-theme
-  title: Minimal Jupyter Book v2
+  title: Data Science
   options:
+    favicon: config/image/favicon.ico
+    logo: config/image/logo.svg
     outline_maxdepth: 2
     style: config/custom.css
