@@ -6,7 +6,7 @@ const REPOSITORY = 'data-science';
 const BRANCH = 'main';
 
 /*
- * Repository layout assumed:
+ * Assumes:
  *
  * repository/
  * ├── myst.yml
@@ -15,66 +15,81 @@ const BRANCH = 'main';
  * └── notebooks/
  *     └── example.ipynb
  */
-const PROJECT_ROOT = path.resolve(
-  path.dirname(fileURLToPath(import.meta.url)),
-  '..',
+const REPOSITORY_ROOT = fileURLToPath(
+  new URL('../', import.meta.url),
 );
 
-function encodePath(filePath) {
-  return filePath
+function encodePath(value) {
+  return value
     .split('/')
     .map(encodeURIComponent)
     .join('/');
 }
 
-const colabTransform = {
-  name: 'add-colab-link',
-  stage: 'document',
+const plugin = {
+  name: 'Colab page links',
 
-  plugin: () => (tree, file) => {
-    const sourceFile = file.path;
+  transforms: [
+    {
+      name: 'add-colab-link',
+      stage: 'document',
 
-    // Add the link only to actual Jupyter notebooks.
-    if (!sourceFile || path.extname(sourceFile) !== '.ipynb') {
-      return tree;
-    }
+      plugin: () => (tree, file) => {
+        const sourceFile = file.path
+          ? path.resolve(String(file.path))
+          : '';
 
-    const notebookPath = path
-      .relative(PROJECT_ROOT, path.resolve(sourceFile))
-      .split(path.sep)
-      .join('/');
+        // This should appear in the terminal during the build.
+        console.log(
+          `[colab-link] processing: ${sourceFile || '<no file path>'}`,
+        );
 
-    // Avoid links for files outside the repository.
-    if (notebookPath.startsWith('../')) {
-      return tree;
-    }
+        // Only notebook pages receive the link.
+        if (!sourceFile.toLowerCase().endsWith('.ipynb')) {
+          return;
+        }
 
-    const url =
-      `https://colab.research.google.com/github/` +
-      `${OWNER}/${REPOSITORY}/blob/${BRANCH}/` +
-      encodePath(notebookPath);
+        const notebookPath = path
+          .relative(REPOSITORY_ROOT, sourceFile)
+          .split(path.sep)
+          .join('/');
 
-    tree.children.unshift({
-      type: 'paragraph',
-      children: [
-        {
-          type: 'link',
-          url,
+        if (
+          !notebookPath ||
+          notebookPath.startsWith('../') ||
+          path.isAbsolute(notebookPath)
+        ) {
+          console.warn(
+            `[colab-link] file is outside repository root: ${sourceFile}`,
+          );
+          return;
+        }
+
+        const url =
+          `https://colab.research.google.com/github/` +
+          `${OWNER}/${REPOSITORY}/blob/${BRANCH}/` +
+          encodePath(notebookPath);
+
+        tree.children.unshift({
+          type: 'paragraph',
           children: [
             {
-              type: 'text',
-              value: 'Open this notebook in Google Colab',
+              type: 'link',
+              url,
+              children: [
+                {
+                  type: 'text',
+                  value: 'Open in Google Colab',
+                },
+              ],
             },
           ],
-        },
-      ],
-    });
+        });
 
-    return tree;
-  },
+        console.log(`[colab-link] added: ${url}`);
+      },
+    },
+  ],
 };
 
-export default {
-  name: 'Google Colab links',
-  transforms: [colabTransform],
-};
+export default plugin;
