@@ -1,4 +1,4 @@
-# <span style="background: -webkit-linear-gradient(20deg, #09009f, #E743D9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">DATA SCIENCE</span>
+# DATA SCIENCE
 A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
 ## Local build
@@ -6,6 +6,9 @@ A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 rm -rf _build
 jb build . --config book/config.yml --toc book/toc.yml
 ```
+
+## <span style="background: -webkit-linear-gradient(20deg, #09009f, #E743D9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Local build</span>
+test
 
 ## Hyperlinks
 ```
