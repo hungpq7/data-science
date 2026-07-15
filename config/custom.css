@@ -12,3 +12,14 @@
 #skip-to-article ~ h2:first-of-type {
   margin-top: 1rem !important;
 }
+
+html {
+  font-size: 90%;
+}
+
+/* button,
+input,
+select,
+textarea {
+  font-size: inherit;
+} */
