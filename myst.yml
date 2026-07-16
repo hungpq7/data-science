@@ -22,5 +22,5 @@ site:
   options:
     favicon: config/image/favicon.ico
     logo: config/image/logo.svg
-    outline_maxdepth: 2
+    outline_maxdepth: 3
     style: config/custom.css
