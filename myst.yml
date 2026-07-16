@@ -7,11 +7,12 @@ project:
     - jupyter-book
     - myst
     - notebook
-  authors:
-    - name: Hung Pham
+  # authors:
+  #   - name: Hung Pham
 
   github: hungpq7/data-science
   jupyter: true
+  source_url: github
 
 extends:
   - config/toc.yml
