@@ -1,12 +1,6 @@
 # DATA SCIENCE
 A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
-## Local build
-```bash
-rm -rf _build
-jb build . --config book/config.yml --toc book/toc.yml
-```
-
 ## Hyperlinks
 ```
 - [Jupyter Book](https://jupyterbook.org)
@@ -40,26 +34,15 @@ Using [MyST-NB](https://myst-nb.readthedocs.io/en/latest/configuration.html#cell
 
 ## Image
 ```
-:::{image} ../image/chap_05/matplotlib_color_names.svg
+:::{image} image/chap_05/matplotlib_color_names.svg
 :height: 600px
 :align: center
 :::
 ```
 
-:::{image} ../image/chap_05/matplotlib_color_names.svg
+:::{image} image/chap_05/matplotlib_color_names.svg
 :height: 600px
 :align: center
-:::
-
-## Topic
-```text
-:::{topic} Title
-Content
-:::
-```
-
-:::{topic} Title
-Content
 :::
 
 ## Callout
