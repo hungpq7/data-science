@@ -1,4 +1,8 @@
-# DATA SCIENCE
+---
+short_title: Home
+---
+
+# Data Science
 A Data Science book. Powered by [Jupyter Book](https://jupyterbook.org).
 
 ## Hyperlinks
